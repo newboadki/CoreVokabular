@@ -1,0 +1,55 @@
+To show:Pokazivati
+Living room:Dnevna soba
+Armchair:Naslonjač
+Couch:Kauč
+Little table:Stolić
+Furniture:Namještaj
+Comfortable:Udoban
+While:Dok
+Bathroom:Kupaonica
+Kitchen:Kuhinja
+Dining room:Blagovaonica
+Midday:Podne
+Pause:pauza
+To last:Trajaiti
+In the middle:u sredini
+To be standing:Stojati
+Around:oko
+Chair:Stolica
+Door:vrata
+Through:Kroz
+Fridge:frižider
+Freezer:Zamrzivač
+cupboard:ormar
+plate:tanjur
+fork:vilica
+knife:nož
+Spoon:žlica
+saucepan:tava
+In the morning:Prije podne
+After:poslije
+Pupil:učnik
+Bedroom:spavaća soba
+Workroom:radna soba
+Desk:radni stol
+bookshelf:polica sknjigama
+Book:knjiga
+About:o
+To begin: Počinjati
+Usually:obično
+Get up: Stizati
+To finish:Završavati se
+District:Naselja
+Morning:Jutro
+This morning:Jutros
+In the morning:Ujutro
+Day:Dan
+Today:danas
+During the day:danju
+Evening:Večer
+This evening:večeras
+In the evening:navečer
+night:noć
+tonight:noćas
+at night:noću
+Midnight:Ponoć

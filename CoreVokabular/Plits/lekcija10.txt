@@ -1,0 +1,41 @@
+Mountain:planina
+To travel:putovati
+Car:auto
+By car:autom
+Satisfied:zadovoljan
+Village:selo
+map:karta
+to find:naći
+I find:nađem
+warm:toplo
+To go:poći
+To drive:voziti
+outside:izvan
+Nature:priroda
+Really:zaista
+In that direction:u tom pravcu
+Motorway:privredni
+cultural:kulturni
+almost:skoro
+invitation:poziv
+sun:sunce
+shine:sijati
+forest:šuma
+river:rijeka
+wonderful:divan
+million:milijun
+inhabitant:stanovnik
+open(adj.):otvoren
+dusk:sumrak
+To swim:plivati
+Idea:ideja
+Field:polje
+However:međutim
+bad:loš
+It's rainning:pada kiša
+it's snowing:pada snijeg
+in the vicinity:u blizini
+To arrive:stizati
+coast:obala
+Island:otok
+blue:plav

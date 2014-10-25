@@ -1,0 +1,39 @@
+To Swim:Plivati
+Swimming (noun):Plivanje
+To Like:Sviđa se
+To take part in:Baviti se
+Remember:Sjećati se
+To be getting married: Ženiti se
+Sport:Sport
+Free time:slobodno vrijeme
+court:teren
+play:igrati
+read:čitati
+working days:Radnim danom
+course:tečaj
+spring:Proljeće
+in spring: U proljeće
+Summer:ljeto
+in summer: u ljeti
+autumn:jesen
+in autumn:u jesen
+winter:zima
+in winter:zimi
+tennis:tenis
+footbal:nogomet
+basketball:Košarka
+Swimming pool: bazen
+weekly:tjedno
+Sports centre:sportsko-recrecijski centar
+Covered pool: zatvoren bazen
+open air pool: otvoren bazen
+handball: rukomet
+tennis court: terem za tenis
+Let me see: da vidim
+Monday:Ponedjeljak
+Tuesday:utorak
+Wednesday:srijeda
+Thursday:četvrtak
+Friday:Petak
+Saturday:subota
+Sundayn:nedjelja

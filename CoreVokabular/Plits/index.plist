@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>lekcija8</key>
+	<dict>
+		<key>displayName</key>
+		<string>Lekcija 8</string>
+		<key>fileName</key>
+		<string>lekcija8.txt</string>
+	</dict>
+	<key>lekcija9</key>
+	<dict>
+		<key>displayName</key>
+		<string>Lekcija 9</string>
+		<key>fileName</key>
+		<string>lekcija9.txt</string>
+	</dict>
+	<key>lekcija10</key>
+	<dict>
+		<key>displayName</key>
+		<string>lekcija10</string>
+		<key>fileName</key>
+		<string>lekcija10.txt</string>
+	</dict>
+	<key>lekcija11</key>
+	<dict>
+		<key>displayName</key>
+		<string>lekcija11</string>
+		<key>fileName</key>
+		<string>lekcija11.txt</string>
+	</dict>
+	<key>lekcija12</key>
+	<dict>
+		<key>displayName</key>
+		<string>lekcija12</string>
+		<key>fileName</key>
+		<string>lekcija12.txt</string>
+	</dict>
+</dict>
+</plist>

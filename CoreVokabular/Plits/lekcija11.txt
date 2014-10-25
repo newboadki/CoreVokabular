@@ -1,0 +1,43 @@
+Computer screen:Kompjutorski ekran
+Computer(foreign):Kompjuter
+Compoter(traditional):računalo
+To pay(imperfective):Plaćati
+To pay(perfective):Platiti
+To happen(imperfectivo):dešavati se
+To happen(perfectivo):desiti se
+To return(imperfective):vraćati se
+To return(perfective):vratiti se
+To rent(imperfective):iznajmljivati
+To rent(perfective):iznajmiti
+To decide(imperfective):odlučivati
+To decide(perfective):odlučiti
+To find out:saznati
+To Stay:Boraviti
+To bathe:kupati se
+To sun bathe:sunčati se
+To reserve:Rezervirati
+Colleague:Kolega
+Kind:Ljubazan
+Class(kind):razned
+Landlady:Gazdarica
+address:adresa
+airport:zračna luka
+Airplane(traditional):zrakoplov
+Airplane(forein):avion
+Return ticket:povratna karta
+One way ticket:Karta u jednom smjeru
+Read(imperfective):čitati
+Read(perfective):pročitati
+Write(imperfective):pisati
+Write(perfective):napisati
+To take(imperfective):uzimati
+To take(perfective):uzeti
+Wonderful:Sjajno
+Accommodation:smještaj
+Train:vlak
+Train ticket:vozna karta
+Church:crkva
+Almost:skoro
+Airplain:Zrakoplov
+Back:natrag
+Later:Kasnije

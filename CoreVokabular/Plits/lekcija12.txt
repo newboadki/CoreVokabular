@@ -1,0 +1,21 @@
+Harbour:Luka
+To be standing:Stajati
+Quay:Pristanište
+Luggage:Prtljaga
+To call(imp):Javljati se
+To call(perf):Javiti se
+Ready:Spreman
+To note down(imp):zapisivati
+To note down(perf):zapisati
+To hope:nadati se
+Too much:suviše
+Tired:umoran
+To forget(imp):Zaboravljati
+To forget(perf):zaboraviti
+To telephone:telefonirati
+To lose(imp):gubiti
+To lose(perf):izgubiti
+Inmediately:odmah
+To go out(imp):izlaziti
+To go out(perf):izaći
+Salt water fish:morska riba
