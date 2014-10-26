@@ -7,41 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		001D9C4B19FD16B900AC1663 /* index.plist in Resources */ = {isa = PBXBuildFile; fileRef = 001D9C4419FD16B900AC1663 /* index.plist */; };
-		001D9C4C19FD16B900AC1663 /* index.plist in Resources */ = {isa = PBXBuildFile; fileRef = 001D9C4419FD16B900AC1663 /* index.plist */; };
-		001D9C4D19FD16B900AC1663 /* lekcija10.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001D9C4519FD16B900AC1663 /* lekcija10.txt */; };
-		001D9C4E19FD16B900AC1663 /* lekcija10.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001D9C4519FD16B900AC1663 /* lekcija10.txt */; };
-		001D9C4F19FD16B900AC1663 /* lekcija11.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001D9C4619FD16B900AC1663 /* lekcija11.txt */; };
-		001D9C5019FD16B900AC1663 /* lekcija11.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001D9C4619FD16B900AC1663 /* lekcija11.txt */; };
-		001D9C5119FD16B900AC1663 /* lekcija12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001D9C4719FD16B900AC1663 /* lekcija12.txt */; };
-		001D9C5219FD16B900AC1663 /* lekcija12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001D9C4719FD16B900AC1663 /* lekcija12.txt */; };
-		001D9C5319FD16B900AC1663 /* lekcija6.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001D9C4819FD16B900AC1663 /* lekcija6.txt */; };
-		001D9C5419FD16B900AC1663 /* lekcija6.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001D9C4819FD16B900AC1663 /* lekcija6.txt */; };
-		001D9C5519FD16B900AC1663 /* lekcija8.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001D9C4919FD16B900AC1663 /* lekcija8.txt */; };
-		001D9C5619FD16B900AC1663 /* lekcija8.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001D9C4919FD16B900AC1663 /* lekcija8.txt */; };
-		001D9C5719FD16B900AC1663 /* lekcija9.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001D9C4A19FD16B900AC1663 /* lekcija9.txt */; };
-		001D9C5819FD16B900AC1663 /* lekcija9.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001D9C4A19FD16B900AC1663 /* lekcija9.txt */; };
 		001D9C5B19FD36F700AC1663 /* WordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001D9C5919FD36F700AC1663 /* WordGenerator.swift */; };
 		001D9C5C19FD36F700AC1663 /* WordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001D9C5919FD36F700AC1663 /* WordGenerator.swift */; };
 		001D9C5D19FD36F700AC1663 /* WordParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001D9C5A19FD36F700AC1663 /* WordParser.swift */; };
 		001D9C5E19FD36F700AC1663 /* WordParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001D9C5A19FD36F700AC1663 /* WordParser.swift */; };
 		001D9C6019FD370200AC1663 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001D9C5F19FD370200AC1663 /* Word.swift */; };
 		001D9C6119FD370200AC1663 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001D9C5F19FD370200AC1663 /* Word.swift */; };
+		0020EDC419FD670900229CAC /* WordGenerator.swift in Headers */ = {isa = PBXBuildFile; fileRef = 001D9C5919FD36F700AC1663 /* WordGenerator.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		0020EDC519FD670B00229CAC /* WordParser.swift in Headers */ = {isa = PBXBuildFile; fileRef = 001D9C5A19FD36F700AC1663 /* WordParser.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		0020EDC619FD670E00229CAC /* Word.swift in Headers */ = {isa = PBXBuildFile; fileRef = 001D9C5F19FD370200AC1663 /* Word.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		0020EDEA19FDA42900229CAC /* index.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0020EDE319FDA42900229CAC /* index.plist */; };
+		0020EDEB19FDA42900229CAC /* index.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0020EDE319FDA42900229CAC /* index.plist */; };
+		0020EDEC19FDA42900229CAC /* lekcija6.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0020EDE419FDA42900229CAC /* lekcija6.txt */; };
+		0020EDED19FDA42900229CAC /* lekcija6.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0020EDE419FDA42900229CAC /* lekcija6.txt */; };
+		0020EDEE19FDA42900229CAC /* lekcija8.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0020EDE519FDA42900229CAC /* lekcija8.txt */; };
+		0020EDEF19FDA42900229CAC /* lekcija8.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0020EDE519FDA42900229CAC /* lekcija8.txt */; };
+		0020EDF019FDA42900229CAC /* lekcija9.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0020EDE619FDA42900229CAC /* lekcija9.txt */; };
+		0020EDF119FDA42900229CAC /* lekcija9.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0020EDE619FDA42900229CAC /* lekcija9.txt */; };
+		0020EDF219FDA42900229CAC /* lekcija10.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0020EDE719FDA42900229CAC /* lekcija10.txt */; };
+		0020EDF319FDA42900229CAC /* lekcija10.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0020EDE719FDA42900229CAC /* lekcija10.txt */; };
+		0020EDF419FDA42900229CAC /* lekcija11.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0020EDE819FDA42900229CAC /* lekcija11.txt */; };
+		0020EDF519FDA42900229CAC /* lekcija11.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0020EDE819FDA42900229CAC /* lekcija11.txt */; };
+		0020EDF619FDA42900229CAC /* lekcija12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0020EDE919FDA42900229CAC /* lekcija12.txt */; };
+		0020EDF719FDA42900229CAC /* lekcija12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0020EDE919FDA42900229CAC /* lekcija12.txt */; };
 		00E33AB519F2C79A009B5653 /* CoreVokabular.h in Headers */ = {isa = PBXBuildFile; fileRef = 00E33AB419F2C79A009B5653 /* CoreVokabular.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00E33ABF19F2C79A009B5653 /* CoreVokabularTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E33ABE19F2C79A009B5653 /* CoreVokabularTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		001D9C4419FD16B900AC1663 /* index.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = index.plist; sourceTree = "<group>"; };
-		001D9C4519FD16B900AC1663 /* lekcija10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija10.txt; sourceTree = "<group>"; };
-		001D9C4619FD16B900AC1663 /* lekcija11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija11.txt; sourceTree = "<group>"; };
-		001D9C4719FD16B900AC1663 /* lekcija12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija12.txt; sourceTree = "<group>"; };
-		001D9C4819FD16B900AC1663 /* lekcija6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija6.txt; sourceTree = "<group>"; };
-		001D9C4919FD16B900AC1663 /* lekcija8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija8.txt; sourceTree = "<group>"; };
-		001D9C4A19FD16B900AC1663 /* lekcija9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija9.txt; sourceTree = "<group>"; };
 		001D9C5919FD36F700AC1663 /* WordGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordGenerator.swift; sourceTree = "<group>"; };
 		001D9C5A19FD36F700AC1663 /* WordParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordParser.swift; sourceTree = "<group>"; };
 		001D9C5F19FD370200AC1663 /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		0020EDE319FDA42900229CAC /* index.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = index.plist; sourceTree = "<group>"; };
+		0020EDE419FDA42900229CAC /* lekcija6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija6.txt; sourceTree = "<group>"; };
+		0020EDE519FDA42900229CAC /* lekcija8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija8.txt; sourceTree = "<group>"; };
+		0020EDE619FDA42900229CAC /* lekcija9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija9.txt; sourceTree = "<group>"; };
+		0020EDE719FDA42900229CAC /* lekcija10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija10.txt; sourceTree = "<group>"; };
+		0020EDE819FDA42900229CAC /* lekcija11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija11.txt; sourceTree = "<group>"; };
+		0020EDE919FDA42900229CAC /* lekcija12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija12.txt; sourceTree = "<group>"; };
 		00E33AAF19F2C79A009B5653 /* CoreVokabular.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreVokabular.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E33AB319F2C79A009B5653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E33AB419F2C79A009B5653 /* CoreVokabular.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVokabular.h; sourceTree = "<group>"; };
@@ -69,20 +72,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		001D9C4319FD16B900AC1663 /* words */ = {
-			isa = PBXGroup;
-			children = (
-				001D9C4419FD16B900AC1663 /* index.plist */,
-				001D9C4519FD16B900AC1663 /* lekcija10.txt */,
-				001D9C4619FD16B900AC1663 /* lekcija11.txt */,
-				001D9C4719FD16B900AC1663 /* lekcija12.txt */,
-				001D9C4819FD16B900AC1663 /* lekcija6.txt */,
-				001D9C4919FD16B900AC1663 /* lekcija8.txt */,
-				001D9C4A19FD16B900AC1663 /* lekcija9.txt */,
-			);
-			path = words;
-			sourceTree = "<group>";
-		};
 		00E33AA519F2C79A009B5653 = {
 			isa = PBXGroup;
 			children = (
@@ -115,7 +104,13 @@
 		00E33AB219F2C79A009B5653 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				001D9C4319FD16B900AC1663 /* words */,
+				0020EDE319FDA42900229CAC /* index.plist */,
+				0020EDE419FDA42900229CAC /* lekcija6.txt */,
+				0020EDE519FDA42900229CAC /* lekcija8.txt */,
+				0020EDE619FDA42900229CAC /* lekcija9.txt */,
+				0020EDE719FDA42900229CAC /* lekcija10.txt */,
+				0020EDE819FDA42900229CAC /* lekcija11.txt */,
+				0020EDE919FDA42900229CAC /* lekcija12.txt */,
 				00E33AB319F2C79A009B5653 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -180,6 +175,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				00E33AB519F2C79A009B5653 /* CoreVokabular.h in Headers */,
+				0020EDC619FD670E00229CAC /* Word.swift in Headers */,
+				0020EDC519FD670B00229CAC /* WordParser.swift in Headers */,
+				0020EDC419FD670900229CAC /* WordGenerator.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,13 +259,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				001D9C4B19FD16B900AC1663 /* index.plist in Resources */,
-				001D9C5119FD16B900AC1663 /* lekcija12.txt in Resources */,
-				001D9C5319FD16B900AC1663 /* lekcija6.txt in Resources */,
-				001D9C5519FD16B900AC1663 /* lekcija8.txt in Resources */,
-				001D9C4D19FD16B900AC1663 /* lekcija10.txt in Resources */,
-				001D9C4F19FD16B900AC1663 /* lekcija11.txt in Resources */,
-				001D9C5719FD16B900AC1663 /* lekcija9.txt in Resources */,
+				0020EDEE19FDA42900229CAC /* lekcija8.txt in Resources */,
+				0020EDF219FDA42900229CAC /* lekcija10.txt in Resources */,
+				0020EDF419FDA42900229CAC /* lekcija11.txt in Resources */,
+				0020EDEA19FDA42900229CAC /* index.plist in Resources */,
+				0020EDF019FDA42900229CAC /* lekcija9.txt in Resources */,
+				0020EDF619FDA42900229CAC /* lekcija12.txt in Resources */,
+				0020EDEC19FDA42900229CAC /* lekcija6.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,13 +273,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				001D9C4C19FD16B900AC1663 /* index.plist in Resources */,
-				001D9C5219FD16B900AC1663 /* lekcija12.txt in Resources */,
-				001D9C5419FD16B900AC1663 /* lekcija6.txt in Resources */,
-				001D9C5619FD16B900AC1663 /* lekcija8.txt in Resources */,
-				001D9C4E19FD16B900AC1663 /* lekcija10.txt in Resources */,
-				001D9C5019FD16B900AC1663 /* lekcija11.txt in Resources */,
-				001D9C5819FD16B900AC1663 /* lekcija9.txt in Resources */,
+				0020EDEF19FDA42900229CAC /* lekcija8.txt in Resources */,
+				0020EDF319FDA42900229CAC /* lekcija10.txt in Resources */,
+				0020EDF519FDA42900229CAC /* lekcija11.txt in Resources */,
+				0020EDEB19FDA42900229CAC /* index.plist in Resources */,
+				0020EDF119FDA42900229CAC /* lekcija9.txt in Resources */,
+				0020EDF719FDA42900229CAC /* lekcija12.txt in Resources */,
+				0020EDED19FDA42900229CAC /* lekcija6.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +398,7 @@
 		00E33AC319F2C79A009B5653 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -412,12 +411,14 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
 		00E33AC419F2C79A009B5653 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -429,6 +430,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};

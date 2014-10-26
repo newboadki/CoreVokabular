@@ -26,6 +26,7 @@ public class WordParser : NSObject
 //        let indexFilePath : NSString? = bundle.pathForResource
 
         let bundle = NSBundle(forClass: self.dynamicType)
+        //let bundle = NSBundle.mainBundle()
         
         let path : String? = bundle.pathForResource(indexKey, ofType: wordListFileType)
         var error : NSErrorPointer = nil
@@ -55,6 +56,7 @@ public class WordParser : NSObject
     {
 
         let bundle = NSBundle(forClass: self.classForCoder())
+//        let bundle = NSBundle.mainBundle()
         let indexFilePath : NSString? = bundle.pathForResource("index", ofType: "plist")
         assert(indexFilePath != nil, "Couldn't load the index file")
         let array = NSArray(contentsOfFile: indexFilePath!)
