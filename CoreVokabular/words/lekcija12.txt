@@ -8,7 +8,7 @@ Ready:Spreman
 To note down(imp):zapisivati
 To note down(perf):zapisati
 To hope:nadati se
-Too much:suviše
+Too much:suiše
 Tired:umoran
 To forget(imp):Zaboravljati
 To forget(perf):zaboraviti

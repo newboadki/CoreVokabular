@@ -1,0 +1,31 @@
+To take(imp): Uzimati
+To take(perf): Uzeti
+To get off (imp): Silaziti
+To get off (perf): Sići
+Continuouly:Stalno
+In any case:Za svaki slučaj
+The right place:pravo mjesto
+To invite: pozivati
+To accept (invitation):prihvaćati
+To reside:Stanovati
+Very gladly:verlo rado
+Information:podatke
+I'm sorry:Žao mi je
+Tram:Tramvaj
+Again:Opet
+Turn:skreniti
+Unfortunately:Na žalost
+Present:Poklon
+Always:Uvjiek
+Everywhere:svugdje
+System:sistem
+Link:Spajati
+Side:Strana
+Life:Život
+Quite:Miran
+Difficult:Teško
+Directly:Direkto
+To come(imp):Dolaziti
+To come(perf):Doći
+To give(imp):Davati
+To give(perf):Dati

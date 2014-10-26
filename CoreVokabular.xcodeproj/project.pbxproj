@@ -7,47 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		001D9C4B19FD16B900AC1663 /* index.plist in Resources */ = {isa = PBXBuildFile; fileRef = 001D9C4419FD16B900AC1663 /* index.plist */; };
+		001D9C4C19FD16B900AC1663 /* index.plist in Resources */ = {isa = PBXBuildFile; fileRef = 001D9C4419FD16B900AC1663 /* index.plist */; };
+		001D9C4D19FD16B900AC1663 /* lekcija10.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001D9C4519FD16B900AC1663 /* lekcija10.txt */; };
+		001D9C4E19FD16B900AC1663 /* lekcija10.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001D9C4519FD16B900AC1663 /* lekcija10.txt */; };
+		001D9C4F19FD16B900AC1663 /* lekcija11.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001D9C4619FD16B900AC1663 /* lekcija11.txt */; };
+		001D9C5019FD16B900AC1663 /* lekcija11.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001D9C4619FD16B900AC1663 /* lekcija11.txt */; };
+		001D9C5119FD16B900AC1663 /* lekcija12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001D9C4719FD16B900AC1663 /* lekcija12.txt */; };
+		001D9C5219FD16B900AC1663 /* lekcija12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001D9C4719FD16B900AC1663 /* lekcija12.txt */; };
+		001D9C5319FD16B900AC1663 /* lekcija6.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001D9C4819FD16B900AC1663 /* lekcija6.txt */; };
+		001D9C5419FD16B900AC1663 /* lekcija6.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001D9C4819FD16B900AC1663 /* lekcija6.txt */; };
+		001D9C5519FD16B900AC1663 /* lekcija8.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001D9C4919FD16B900AC1663 /* lekcija8.txt */; };
+		001D9C5619FD16B900AC1663 /* lekcija8.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001D9C4919FD16B900AC1663 /* lekcija8.txt */; };
+		001D9C5719FD16B900AC1663 /* lekcija9.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001D9C4A19FD16B900AC1663 /* lekcija9.txt */; };
+		001D9C5819FD16B900AC1663 /* lekcija9.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001D9C4A19FD16B900AC1663 /* lekcija9.txt */; };
+		001D9C5B19FD36F700AC1663 /* WordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001D9C5919FD36F700AC1663 /* WordGenerator.swift */; };
+		001D9C5C19FD36F700AC1663 /* WordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001D9C5919FD36F700AC1663 /* WordGenerator.swift */; };
+		001D9C5D19FD36F700AC1663 /* WordParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001D9C5A19FD36F700AC1663 /* WordParser.swift */; };
+		001D9C5E19FD36F700AC1663 /* WordParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001D9C5A19FD36F700AC1663 /* WordParser.swift */; };
+		001D9C6019FD370200AC1663 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001D9C5F19FD370200AC1663 /* Word.swift */; };
+		001D9C6119FD370200AC1663 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001D9C5F19FD370200AC1663 /* Word.swift */; };
 		00E33AB519F2C79A009B5653 /* CoreVokabular.h in Headers */ = {isa = PBXBuildFile; fileRef = 00E33AB419F2C79A009B5653 /* CoreVokabular.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00E33ABF19F2C79A009B5653 /* CoreVokabularTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E33ABE19F2C79A009B5653 /* CoreVokabularTests.swift */; };
-		00E33ACF19F2C89F009B5653 /* index.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00E33AC919F2C89F009B5653 /* index.plist */; };
-		00E33AD019F2C89F009B5653 /* index.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00E33AC919F2C89F009B5653 /* index.plist */; };
-		00E33AD119F2C89F009B5653 /* lekcija10.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00E33ACA19F2C89F009B5653 /* lekcija10.txt */; };
-		00E33AD219F2C89F009B5653 /* lekcija10.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00E33ACA19F2C89F009B5653 /* lekcija10.txt */; };
-		00E33AD319F2C89F009B5653 /* lekcija11.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00E33ACB19F2C89F009B5653 /* lekcija11.txt */; };
-		00E33AD419F2C89F009B5653 /* lekcija11.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00E33ACB19F2C89F009B5653 /* lekcija11.txt */; };
-		00E33AD519F2C89F009B5653 /* lekcija12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00E33ACC19F2C89F009B5653 /* lekcija12.txt */; };
-		00E33AD619F2C89F009B5653 /* lekcija12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00E33ACC19F2C89F009B5653 /* lekcija12.txt */; };
-		00E33AD719F2C89F009B5653 /* lekcija8.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00E33ACD19F2C89F009B5653 /* lekcija8.txt */; };
-		00E33AD819F2C89F009B5653 /* lekcija8.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00E33ACD19F2C89F009B5653 /* lekcija8.txt */; };
-		00E33AD919F2C89F009B5653 /* lekcija9.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00E33ACE19F2C89F009B5653 /* lekcija9.txt */; };
-		00E33ADA19F2C89F009B5653 /* lekcija9.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00E33ACE19F2C89F009B5653 /* lekcija9.txt */; };
-		00EEAEF319F836B5006E2ADA /* WordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EEAEF019F836B5006E2ADA /* WordGenerator.swift */; };
-		00EEAEF819F836BE006E2ADA /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EEAEF619F836BE006E2ADA /* Word.swift */; };
-		00EEAF2E19F85ADC006E2ADA /* WordParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EEAEF119F836B5006E2ADA /* WordParser.swift */; };
-		00EEAF2F19F85ADE006E2ADA /* WordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EEAEF019F836B5006E2ADA /* WordGenerator.swift */; };
-		00EEAF3019F85AE2006E2ADA /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EEAEF619F836BE006E2ADA /* Word.swift */; };
-		00EEAF3219F85B76006E2ADA /* WordParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EEAEF119F836B5006E2ADA /* WordParser.swift */; };
-		00EEAF3319F85BAF006E2ADA /* WordGenerator.swift in Headers */ = {isa = PBXBuildFile; fileRef = 00EEAEF019F836B5006E2ADA /* WordGenerator.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		00EEAF3419F85BB2006E2ADA /* WordParser.swift in Headers */ = {isa = PBXBuildFile; fileRef = 00EEAEF119F836B5006E2ADA /* WordParser.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		00EEAF3519F85BB5006E2ADA /* Word.swift in Headers */ = {isa = PBXBuildFile; fileRef = 00EEAEF619F836BE006E2ADA /* Word.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		001D9C4419FD16B900AC1663 /* index.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = index.plist; sourceTree = "<group>"; };
+		001D9C4519FD16B900AC1663 /* lekcija10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija10.txt; sourceTree = "<group>"; };
+		001D9C4619FD16B900AC1663 /* lekcija11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija11.txt; sourceTree = "<group>"; };
+		001D9C4719FD16B900AC1663 /* lekcija12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija12.txt; sourceTree = "<group>"; };
+		001D9C4819FD16B900AC1663 /* lekcija6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija6.txt; sourceTree = "<group>"; };
+		001D9C4919FD16B900AC1663 /* lekcija8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija8.txt; sourceTree = "<group>"; };
+		001D9C4A19FD16B900AC1663 /* lekcija9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija9.txt; sourceTree = "<group>"; };
+		001D9C5919FD36F700AC1663 /* WordGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordGenerator.swift; sourceTree = "<group>"; };
+		001D9C5A19FD36F700AC1663 /* WordParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordParser.swift; sourceTree = "<group>"; };
+		001D9C5F19FD370200AC1663 /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 		00E33AAF19F2C79A009B5653 /* CoreVokabular.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreVokabular.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E33AB319F2C79A009B5653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E33AB419F2C79A009B5653 /* CoreVokabular.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVokabular.h; sourceTree = "<group>"; };
 		00E33ABA19F2C79A009B5653 /* CoreVokabularTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreVokabularTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E33ABD19F2C79A009B5653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E33ABE19F2C79A009B5653 /* CoreVokabularTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreVokabularTests.swift; sourceTree = "<group>"; };
-		00E33AC919F2C89F009B5653 /* index.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = index.plist; sourceTree = "<group>"; };
-		00E33ACA19F2C89F009B5653 /* lekcija10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija10.txt; sourceTree = "<group>"; };
-		00E33ACB19F2C89F009B5653 /* lekcija11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija11.txt; sourceTree = "<group>"; };
-		00E33ACC19F2C89F009B5653 /* lekcija12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija12.txt; sourceTree = "<group>"; };
-		00E33ACD19F2C89F009B5653 /* lekcija8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija8.txt; sourceTree = "<group>"; };
-		00E33ACE19F2C89F009B5653 /* lekcija9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija9.txt; sourceTree = "<group>"; };
-		00EEAEF019F836B5006E2ADA /* WordGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordGenerator.swift; sourceTree = "<group>"; };
-		00EEAEF119F836B5006E2ADA /* WordParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordParser.swift; sourceTree = "<group>"; };
-		00EEAEF619F836BE006E2ADA /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 		00EEAF2D19F855BA006E2ADA /* CoreVokabular copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CoreVokabular copy-Info.plist"; path = "/Users/borja/code/Objective-C/CoreVokabular/CoreVokabular copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +69,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		001D9C4319FD16B900AC1663 /* words */ = {
+			isa = PBXGroup;
+			children = (
+				001D9C4419FD16B900AC1663 /* index.plist */,
+				001D9C4519FD16B900AC1663 /* lekcija10.txt */,
+				001D9C4619FD16B900AC1663 /* lekcija11.txt */,
+				001D9C4719FD16B900AC1663 /* lekcija12.txt */,
+				001D9C4819FD16B900AC1663 /* lekcija6.txt */,
+				001D9C4919FD16B900AC1663 /* lekcija8.txt */,
+				001D9C4A19FD16B900AC1663 /* lekcija9.txt */,
+			);
+			path = words;
+			sourceTree = "<group>";
+		};
 		00E33AA519F2C79A009B5653 = {
 			isa = PBXGroup;
 			children = (
@@ -101,7 +115,7 @@
 		00E33AB219F2C79A009B5653 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				00E33AC819F2C89F009B5653 /* Plits */,
+				001D9C4319FD16B900AC1663 /* words */,
 				00E33AB319F2C79A009B5653 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -124,19 +138,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		00E33AC819F2C89F009B5653 /* Plits */ = {
-			isa = PBXGroup;
-			children = (
-				00E33AC919F2C89F009B5653 /* index.plist */,
-				00E33ACA19F2C89F009B5653 /* lekcija10.txt */,
-				00E33ACB19F2C89F009B5653 /* lekcija11.txt */,
-				00E33ACC19F2C89F009B5653 /* lekcija12.txt */,
-				00E33ACD19F2C89F009B5653 /* lekcija8.txt */,
-				00E33ACE19F2C89F009B5653 /* lekcija9.txt */,
-			);
-			path = Plits;
-			sourceTree = "<group>";
-		};
 		00E33ADB19F2C8AA009B5653 /* source */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,8 +151,8 @@
 		00E33ADC19F2C8AA009B5653 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				00EEAEF019F836B5006E2ADA /* WordGenerator.swift */,
-				00EEAEF119F836B5006E2ADA /* WordParser.swift */,
+				001D9C5919FD36F700AC1663 /* WordGenerator.swift */,
+				001D9C5A19FD36F700AC1663 /* WordParser.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -159,7 +160,7 @@
 		00E33ADF19F2C8AA009B5653 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				00EEAEF619F836BE006E2ADA /* Word.swift */,
+				001D9C5F19FD370200AC1663 /* Word.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -179,9 +180,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				00E33AB519F2C79A009B5653 /* CoreVokabular.h in Headers */,
-				00EEAF3319F85BAF006E2ADA /* WordGenerator.swift in Headers */,
-				00EEAF3419F85BB2006E2ADA /* WordParser.swift in Headers */,
-				00EEAF3519F85BB5006E2ADA /* Word.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,12 +261,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E33AD919F2C89F009B5653 /* lekcija9.txt in Resources */,
-				00E33ACF19F2C89F009B5653 /* index.plist in Resources */,
-				00E33AD519F2C89F009B5653 /* lekcija12.txt in Resources */,
-				00E33AD719F2C89F009B5653 /* lekcija8.txt in Resources */,
-				00E33AD119F2C89F009B5653 /* lekcija10.txt in Resources */,
-				00E33AD319F2C89F009B5653 /* lekcija11.txt in Resources */,
+				001D9C4B19FD16B900AC1663 /* index.plist in Resources */,
+				001D9C5119FD16B900AC1663 /* lekcija12.txt in Resources */,
+				001D9C5319FD16B900AC1663 /* lekcija6.txt in Resources */,
+				001D9C5519FD16B900AC1663 /* lekcija8.txt in Resources */,
+				001D9C4D19FD16B900AC1663 /* lekcija10.txt in Resources */,
+				001D9C4F19FD16B900AC1663 /* lekcija11.txt in Resources */,
+				001D9C5719FD16B900AC1663 /* lekcija9.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,12 +275,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E33ADA19F2C89F009B5653 /* lekcija9.txt in Resources */,
-				00E33AD019F2C89F009B5653 /* index.plist in Resources */,
-				00E33AD619F2C89F009B5653 /* lekcija12.txt in Resources */,
-				00E33AD819F2C89F009B5653 /* lekcija8.txt in Resources */,
-				00E33AD219F2C89F009B5653 /* lekcija10.txt in Resources */,
-				00E33AD419F2C89F009B5653 /* lekcija11.txt in Resources */,
+				001D9C4C19FD16B900AC1663 /* index.plist in Resources */,
+				001D9C5219FD16B900AC1663 /* lekcija12.txt in Resources */,
+				001D9C5419FD16B900AC1663 /* lekcija6.txt in Resources */,
+				001D9C5619FD16B900AC1663 /* lekcija8.txt in Resources */,
+				001D9C4E19FD16B900AC1663 /* lekcija10.txt in Resources */,
+				001D9C5019FD16B900AC1663 /* lekcija11.txt in Resources */,
+				001D9C5819FD16B900AC1663 /* lekcija9.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,9 +292,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00EEAF2E19F85ADC006E2ADA /* WordParser.swift in Sources */,
-				00EEAF2F19F85ADE006E2ADA /* WordGenerator.swift in Sources */,
-				00EEAF3019F85AE2006E2ADA /* Word.swift in Sources */,
+				001D9C5D19FD36F700AC1663 /* WordParser.swift in Sources */,
+				001D9C5B19FD36F700AC1663 /* WordGenerator.swift in Sources */,
+				001D9C6019FD370200AC1663 /* Word.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,10 +302,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00EEAF3219F85B76006E2ADA /* WordParser.swift in Sources */,
-				00EEAEF819F836BE006E2ADA /* Word.swift in Sources */,
+				001D9C5E19FD36F700AC1663 /* WordParser.swift in Sources */,
+				001D9C6119FD370200AC1663 /* Word.swift in Sources */,
 				00E33ABF19F2C79A009B5653 /* CoreVokabularTests.swift in Sources */,
-				00EEAEF319F836B5006E2ADA /* WordGenerator.swift in Sources */,
+				001D9C5C19FD36F700AC1663 /* WordGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

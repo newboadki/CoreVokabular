@@ -11,18 +11,23 @@ import UIKit
 public class WordParser : NSObject
 {
     let wordListFileType = "txt"
-    let indexDictionary : NSDictionary
+    let index : NSArray
     
     
     public override init() {
-        indexDictionary = WordParser.lessonsIndexDictionary()
+        index = WordParser.lessonsIndexArray()
         super.init()
     }
     
     public func parseWordsFromFileWithIndexKey(indexKey: String) -> Array<Word>
     {
+
         
-        let path : NSString? = NSBundle.mainBundle().pathForResource(indexKey, ofType: wordListFileType)
+//        let indexFilePath : NSString? = bundle.pathForResource
+
+        let bundle = NSBundle(forClass: self.dynamicType)
+        
+        let path : String? = bundle.pathForResource(indexKey, ofType: wordListFileType)
         var error : NSErrorPointer = nil
         var words = [Word]() // Creates an empty Array of Word(s)
         
@@ -46,13 +51,15 @@ public class WordParser : NSObject
     }
     
     
-    public class func lessonsIndexDictionary() -> NSDictionary
+    public class func lessonsIndexArray() -> NSArray
     {
-        let indexFilePath : NSString? = NSBundle.mainBundle().pathForResource("index", ofType: "plist")
+
+        let bundle = NSBundle(forClass: self.classForCoder())
+        let indexFilePath : NSString? = bundle.pathForResource("index", ofType: "plist")
         assert(indexFilePath != nil, "Couldn't load the index file")
-        let dictionry = NSDictionary(contentsOfFile: indexFilePath!)
+        let array = NSArray(contentsOfFile: indexFilePath!)
         
-        return dictionry!
+        return array!
     }
     
 }
