@@ -19,3 +19,20 @@ Inmediately:odmah
 To go out(imp):izlaziti
 To go out(perf):izaći
 Salt water fish:morska riba
+Where:Gdje
+Somewhere:Negdje
+Nowhere:Nigdje
+Anywhere:Igdje
+What:Što
+Something:Nešto
+Nothing:Ništa
+Anything:Išta
+Who:Tko
+Someone:Netko
+Noone:Nitko
+Anyone:Itko
+When:Kada
+Once:Nekad
+Never:Nikad
+Anytime:ikad
+To Call:Nazvati

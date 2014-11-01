@@ -1,0 +1,55 @@
+Sad:Tužan
+Happy:Sretan
+To look forward to:Radovati se
+Why?:Zašto
+Because: Zato što
+For how much longer:Koliko još dugo
+To tolerate:Podnosti
+Behaviour:Ponašanje
+Guilty:Kriv
+The past:Prošlost
+The future:Budunćnost
+These days(recently):Ovih dana
+Once more:Još jednom
+Sincerely:Iskreno
+As soon as:čim
+To begin(imp):počinjati
+To begin(perf):početi
+Emotion(feeling):Osjuećaj
+To bathe:Kupati se
+What date is today?:Koji je danas datum
+topao:warm
+veseo:warm
+The day before departure:Dan prije polaska
+To pack(imp):Pakovati
+To pack(perf):spakovati
+T-shirt:Majica
+Shorts:šorc
+Swimming costume:Kupaći kostim
+Sock:čarapa
+Underwear:Donje rublje
+Sandals:Sandale
+Shoes:cipele
+Light:Lagan
+Red:Crven
+Jacket:Jakna
+Shirt:Košulja
+Green:zelen
+With short sleeves: S kratkim rukavima
+Yellow:žut
+Skirt:Suknja
+Dress:Haljina
+Hat:Šešir
+Sun lotion:Mlijeko za sučanje
+It is situated:Smješten je
+Gentle mediterranean climate:U blagoj mediteranskoj klimi
+Bed:Krevet
+Shower:Tuš
+Hairdressing salon:Frizerski salon
+Terrace:Terasa
+Dance(noun):Ples
+Conference hall:Sala za konferenciju
+Salt water:Morska voda
+One-bedded room: jednokrevetna soba
+Two-bedded room: dvokrevetna soba
+Three-bedded room: trokrevetna soba

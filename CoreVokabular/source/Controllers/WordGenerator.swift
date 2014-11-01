@@ -6,7 +6,6 @@
 //  Copyright (c) 2014 Borja Arias Drake. All rights reserved.
 //
 
-import UIKit
 import Foundation
 
 public class WordGenerator: NSObject

@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Borja Arias Drake. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
 public class WordParser : NSObject
 {
@@ -21,13 +21,7 @@ public class WordParser : NSObject
     
     public func parseWordsFromFileWithIndexKey(indexKey: String) -> Array<Word>
     {
-
-        
-//        let indexFilePath : NSString? = bundle.pathForResource
-
         let bundle = NSBundle(forClass: self.dynamicType)
-        //let bundle = NSBundle.mainBundle()
-        
         let path : String? = bundle.pathForResource(indexKey, ofType: wordListFileType)
         var error : NSErrorPointer = nil
         var words = [Word]() // Creates an empty Array of Word(s)
@@ -54,9 +48,7 @@ public class WordParser : NSObject
     
     public class func lessonsIndexArray() -> NSArray
     {
-
         let bundle = NSBundle(forClass: self.classForCoder())
-//        let bundle = NSBundle.mainBundle()
         let indexFilePath : NSString? = bundle.pathForResource("index", ofType: "plist")
         assert(indexFilePath != nil, "Couldn't load the index file")
         let array = NSArray(contentsOfFile: indexFilePath!)

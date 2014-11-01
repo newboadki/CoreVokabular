@@ -13,9 +13,6 @@
 		001D9C5E19FD36F700AC1663 /* WordParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001D9C5A19FD36F700AC1663 /* WordParser.swift */; };
 		001D9C6019FD370200AC1663 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001D9C5F19FD370200AC1663 /* Word.swift */; };
 		001D9C6119FD370200AC1663 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001D9C5F19FD370200AC1663 /* Word.swift */; };
-		0020EDC419FD670900229CAC /* WordGenerator.swift in Headers */ = {isa = PBXBuildFile; fileRef = 001D9C5919FD36F700AC1663 /* WordGenerator.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		0020EDC519FD670B00229CAC /* WordParser.swift in Headers */ = {isa = PBXBuildFile; fileRef = 001D9C5A19FD36F700AC1663 /* WordParser.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		0020EDC619FD670E00229CAC /* Word.swift in Headers */ = {isa = PBXBuildFile; fileRef = 001D9C5F19FD370200AC1663 /* Word.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		0020EDEA19FDA42900229CAC /* index.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0020EDE319FDA42900229CAC /* index.plist */; };
 		0020EDEB19FDA42900229CAC /* index.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0020EDE319FDA42900229CAC /* index.plist */; };
 		0020EDEC19FDA42900229CAC /* lekcija6.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0020EDE419FDA42900229CAC /* lekcija6.txt */; };
@@ -30,9 +27,36 @@
 		0020EDF519FDA42900229CAC /* lekcija11.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0020EDE819FDA42900229CAC /* lekcija11.txt */; };
 		0020EDF619FDA42900229CAC /* lekcija12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0020EDE919FDA42900229CAC /* lekcija12.txt */; };
 		0020EDF719FDA42900229CAC /* lekcija12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0020EDE919FDA42900229CAC /* lekcija12.txt */; };
+		0044A9661A0561B100D6E7DC /* lekcija13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0044A9651A0561B100D6E7DC /* lekcija13.txt */; };
+		0044A9671A0561B100D6E7DC /* lekcija13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0044A9651A0561B100D6E7DC /* lekcija13.txt */; };
+		0044A9681A0561B100D6E7DC /* lekcija13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0044A9651A0561B100D6E7DC /* lekcija13.txt */; };
+		0044A9691A0561B100D6E7DC /* lekcija13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0044A9651A0561B100D6E7DC /* lekcija13.txt */; };
 		00E33AB519F2C79A009B5653 /* CoreVokabular.h in Headers */ = {isa = PBXBuildFile; fileRef = 00E33AB419F2C79A009B5653 /* CoreVokabular.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00E33ABF19F2C79A009B5653 /* CoreVokabularTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E33ABE19F2C79A009B5653 /* CoreVokabularTests.swift */; };
+		00ECE7A91A026724001F9D91 /* CoreVokabularOSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 00ECE7A81A026724001F9D91 /* CoreVokabularOSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00ECE7AF1A026724001F9D91 /* CoreVokabularOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00ECE7A41A026724001F9D91 /* CoreVokabularOSX.framework */; };
+		00ECE7B61A026724001F9D91 /* CoreVokabularOSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ECE7B51A026724001F9D91 /* CoreVokabularOSXTests.swift */; };
+		00ECE7BD1A0268D9001F9D91 /* WordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001D9C5919FD36F700AC1663 /* WordGenerator.swift */; };
+		00ECE7BE1A0268DB001F9D91 /* WordParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001D9C5A19FD36F700AC1663 /* WordParser.swift */; };
+		00ECE7BF1A0268DD001F9D91 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001D9C5F19FD370200AC1663 /* Word.swift */; };
+		00ECE7C01A0268E8001F9D91 /* index.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0020EDE319FDA42900229CAC /* index.plist */; };
+		00ECE7C11A0268EA001F9D91 /* lekcija6.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0020EDE419FDA42900229CAC /* lekcija6.txt */; };
+		00ECE7C21A0268EC001F9D91 /* lekcija8.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0020EDE519FDA42900229CAC /* lekcija8.txt */; };
+		00ECE7C31A0268EE001F9D91 /* lekcija9.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0020EDE619FDA42900229CAC /* lekcija9.txt */; };
+		00ECE7C41A0268F0001F9D91 /* lekcija10.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0020EDE719FDA42900229CAC /* lekcija10.txt */; };
+		00ECE7C51A0268F2001F9D91 /* lekcija11.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0020EDE819FDA42900229CAC /* lekcija11.txt */; };
+		00ECE7C61A0268F4001F9D91 /* lekcija12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0020EDE919FDA42900229CAC /* lekcija12.txt */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00ECE7B01A026724001F9D91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00E33AA619F2C79A009B5653 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00ECE7A31A026724001F9D91;
+			remoteInfo = CoreVokabularOSX;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		001D9C5919FD36F700AC1663 /* WordGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordGenerator.swift; sourceTree = "<group>"; };
@@ -45,12 +69,23 @@
 		0020EDE719FDA42900229CAC /* lekcija10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija10.txt; sourceTree = "<group>"; };
 		0020EDE819FDA42900229CAC /* lekcija11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija11.txt; sourceTree = "<group>"; };
 		0020EDE919FDA42900229CAC /* lekcija12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija12.txt; sourceTree = "<group>"; };
+		0044A9651A0561B100D6E7DC /* lekcija13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija13.txt; sourceTree = "<group>"; };
+		00B604851A018E9200243649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00B604861A018E9200243649 /* CoreVokabular_OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVokabular_OSX.h; sourceTree = "<group>"; };
+		00B604921A018E9200243649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00B604931A018E9200243649 /* CoreVokabular_OSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreVokabular_OSXTests.swift; sourceTree = "<group>"; };
 		00E33AAF19F2C79A009B5653 /* CoreVokabular.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreVokabular.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E33AB319F2C79A009B5653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E33AB419F2C79A009B5653 /* CoreVokabular.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVokabular.h; sourceTree = "<group>"; };
 		00E33ABA19F2C79A009B5653 /* CoreVokabularTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreVokabularTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E33ABD19F2C79A009B5653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E33ABE19F2C79A009B5653 /* CoreVokabularTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreVokabularTests.swift; sourceTree = "<group>"; };
+		00ECE7A41A026724001F9D91 /* CoreVokabularOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreVokabularOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00ECE7A71A026724001F9D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00ECE7A81A026724001F9D91 /* CoreVokabularOSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVokabularOSX.h; sourceTree = "<group>"; };
+		00ECE7AE1A026724001F9D91 /* CoreVokabularOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreVokabularOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00ECE7B41A026724001F9D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00ECE7B51A026724001F9D91 /* CoreVokabularOSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreVokabularOSXTests.swift; sourceTree = "<group>"; };
 		00EEAF2D19F855BA006E2ADA /* CoreVokabular copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CoreVokabular copy-Info.plist"; path = "/Users/borja/code/Objective-C/CoreVokabular/CoreVokabular copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
@@ -69,14 +104,67 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		00ECE7A01A026724001F9D91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00ECE7AB1A026724001F9D91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00ECE7AF1A026724001F9D91 /* CoreVokabularOSX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00B604831A018E9200243649 /* CoreVokabular_OSX */ = {
+			isa = PBXGroup;
+			children = (
+				00B604861A018E9200243649 /* CoreVokabular_OSX.h */,
+				00B604841A018E9200243649 /* Supporting Files */,
+			);
+			path = CoreVokabular_OSX;
+			sourceTree = "<group>";
+		};
+		00B604841A018E9200243649 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00B604851A018E9200243649 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00B604901A018E9200243649 /* CoreVokabular_OSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				00B604931A018E9200243649 /* CoreVokabular_OSXTests.swift */,
+				00B604911A018E9200243649 /* Supporting Files */,
+			);
+			path = CoreVokabular_OSXTests;
+			sourceTree = "<group>";
+		};
+		00B604911A018E9200243649 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00B604921A018E9200243649 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		00E33AA519F2C79A009B5653 = {
 			isa = PBXGroup;
 			children = (
 				00E33AB119F2C79A009B5653 /* CoreVokabular */,
 				00E33ABB19F2C79A009B5653 /* CoreVokabularTests */,
+				00B604831A018E9200243649 /* CoreVokabular_OSX */,
+				00B604901A018E9200243649 /* CoreVokabular_OSXTests */,
+				00ECE7A51A026724001F9D91 /* CoreVokabularOSX */,
+				00ECE7B21A026724001F9D91 /* CoreVokabularOSXTests */,
 				00E33AB019F2C79A009B5653 /* Products */,
 				00EEAF2D19F855BA006E2ADA /* CoreVokabular copy-Info.plist */,
 			);
@@ -87,6 +175,8 @@
 			children = (
 				00E33AAF19F2C79A009B5653 /* CoreVokabular.framework */,
 				00E33ABA19F2C79A009B5653 /* CoreVokabularTests.xctest */,
+				00ECE7A41A026724001F9D91 /* CoreVokabularOSX.framework */,
+				00ECE7AE1A026724001F9D91 /* CoreVokabularOSXTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,6 +201,7 @@
 				0020EDE719FDA42900229CAC /* lekcija10.txt */,
 				0020EDE819FDA42900229CAC /* lekcija11.txt */,
 				0020EDE919FDA42900229CAC /* lekcija12.txt */,
+				0044A9651A0561B100D6E7DC /* lekcija13.txt */,
 				00E33AB319F2C79A009B5653 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -167,6 +258,40 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
+		00ECE7A51A026724001F9D91 /* CoreVokabularOSX */ = {
+			isa = PBXGroup;
+			children = (
+				00ECE7A81A026724001F9D91 /* CoreVokabularOSX.h */,
+				00ECE7A61A026724001F9D91 /* Supporting Files */,
+			);
+			path = CoreVokabularOSX;
+			sourceTree = "<group>";
+		};
+		00ECE7A61A026724001F9D91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00ECE7A71A026724001F9D91 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00ECE7B21A026724001F9D91 /* CoreVokabularOSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				00ECE7B51A026724001F9D91 /* CoreVokabularOSXTests.swift */,
+				00ECE7B31A026724001F9D91 /* Supporting Files */,
+			);
+			path = CoreVokabularOSXTests;
+			sourceTree = "<group>";
+		};
+		00ECE7B31A026724001F9D91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00ECE7B41A026724001F9D91 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -175,9 +300,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				00E33AB519F2C79A009B5653 /* CoreVokabular.h in Headers */,
-				0020EDC619FD670E00229CAC /* Word.swift in Headers */,
-				0020EDC519FD670B00229CAC /* WordParser.swift in Headers */,
-				0020EDC419FD670900229CAC /* WordGenerator.swift in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00ECE7A11A026724001F9D91 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00ECE7A91A026724001F9D91 /* CoreVokabularOSX.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,13 +349,49 @@
 			productReference = 00E33ABA19F2C79A009B5653 /* CoreVokabularTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		00ECE7A31A026724001F9D91 /* CoreVokabularOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00ECE7B71A026724001F9D91 /* Build configuration list for PBXNativeTarget "CoreVokabularOSX" */;
+			buildPhases = (
+				00ECE79F1A026724001F9D91 /* Sources */,
+				00ECE7A01A026724001F9D91 /* Frameworks */,
+				00ECE7A11A026724001F9D91 /* Headers */,
+				00ECE7A21A026724001F9D91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreVokabularOSX;
+			productName = CoreVokabularOSX;
+			productReference = 00ECE7A41A026724001F9D91 /* CoreVokabularOSX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		00ECE7AD1A026724001F9D91 /* CoreVokabularOSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00ECE7BA1A026724001F9D91 /* Build configuration list for PBXNativeTarget "CoreVokabularOSXTests" */;
+			buildPhases = (
+				00ECE7AA1A026724001F9D91 /* Sources */,
+				00ECE7AB1A026724001F9D91 /* Frameworks */,
+				00ECE7AC1A026724001F9D91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00ECE7B11A026724001F9D91 /* PBXTargetDependency */,
+			);
+			name = CoreVokabularOSXTests;
+			productName = CoreVokabularOSXTests;
+			productReference = 00ECE7AE1A026724001F9D91 /* CoreVokabularOSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		00E33AA619F2C79A009B5653 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Borja Arias Drake";
 				TargetAttributes = {
 					00E33AAE19F2C79A009B5653 = {
@@ -233,6 +399,12 @@
 					};
 					00E33AB919F2C79A009B5653 = {
 						CreatedOnToolsVersion = 6.0.1;
+					};
+					00ECE7A31A026724001F9D91 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					00ECE7AD1A026724001F9D91 = {
+						CreatedOnToolsVersion = 6.1;
 					};
 				};
 			};
@@ -250,6 +422,8 @@
 			targets = (
 				00E33AAE19F2C79A009B5653 /* CoreVokabular */,
 				00E33AB919F2C79A009B5653 /* CoreVokabularTests */,
+				00ECE7A31A026724001F9D91 /* CoreVokabularOSX */,
+				00ECE7AD1A026724001F9D91 /* CoreVokabularOSXTests */,
 			);
 		};
 /* End PBXProject section */
@@ -261,6 +435,7 @@
 			files = (
 				0020EDEE19FDA42900229CAC /* lekcija8.txt in Resources */,
 				0020EDF219FDA42900229CAC /* lekcija10.txt in Resources */,
+				0044A9661A0561B100D6E7DC /* lekcija13.txt in Resources */,
 				0020EDF419FDA42900229CAC /* lekcija11.txt in Resources */,
 				0020EDEA19FDA42900229CAC /* index.plist in Resources */,
 				0020EDF019FDA42900229CAC /* lekcija9.txt in Resources */,
@@ -275,11 +450,35 @@
 			files = (
 				0020EDEF19FDA42900229CAC /* lekcija8.txt in Resources */,
 				0020EDF319FDA42900229CAC /* lekcija10.txt in Resources */,
+				0044A9671A0561B100D6E7DC /* lekcija13.txt in Resources */,
 				0020EDF519FDA42900229CAC /* lekcija11.txt in Resources */,
 				0020EDEB19FDA42900229CAC /* index.plist in Resources */,
 				0020EDF119FDA42900229CAC /* lekcija9.txt in Resources */,
 				0020EDF719FDA42900229CAC /* lekcija12.txt in Resources */,
 				0020EDED19FDA42900229CAC /* lekcija6.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00ECE7A21A026724001F9D91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00ECE7C01A0268E8001F9D91 /* index.plist in Resources */,
+				00ECE7C11A0268EA001F9D91 /* lekcija6.txt in Resources */,
+				0044A9681A0561B100D6E7DC /* lekcija13.txt in Resources */,
+				00ECE7C31A0268EE001F9D91 /* lekcija9.txt in Resources */,
+				00ECE7C61A0268F4001F9D91 /* lekcija12.txt in Resources */,
+				00ECE7C51A0268F2001F9D91 /* lekcija11.txt in Resources */,
+				00ECE7C21A0268EC001F9D91 /* lekcija8.txt in Resources */,
+				00ECE7C41A0268F0001F9D91 /* lekcija10.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00ECE7AC1A026724001F9D91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0044A9691A0561B100D6E7DC /* lekcija13.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,7 +506,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		00ECE79F1A026724001F9D91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00ECE7BD1A0268D9001F9D91 /* WordGenerator.swift in Sources */,
+				00ECE7BE1A0268DB001F9D91 /* WordParser.swift in Sources */,
+				00ECE7BF1A0268DD001F9D91 /* Word.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00ECE7AA1A026724001F9D91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00ECE7B61A026724001F9D91 /* CoreVokabularOSXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00ECE7B11A026724001F9D91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00ECE7A31A026724001F9D91 /* CoreVokabularOSX */;
+			targetProxy = 00ECE7B01A026724001F9D91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		00E33AC019F2C79A009B5653 /* Debug */ = {
@@ -347,7 +572,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -387,6 +612,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -398,7 +624,6 @@
 		00E33AC319F2C79A009B5653 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -407,6 +632,7 @@
 				INFOPLIST_FILE = CoreVokabular/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -418,7 +644,6 @@
 		00E33AC419F2C79A009B5653 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -427,6 +652,7 @@
 				INFOPLIST_FILE = CoreVokabular/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -464,6 +690,90 @@
 			};
 			name = Release;
 		};
+		00ECE7B81A026724001F9D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CoreVokabularOSX/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		00ECE7B91A026724001F9D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = CoreVokabularOSX/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		00ECE7BB1A026724001F9D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CoreVokabularOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		00ECE7BC1A026724001F9D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CoreVokabularOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -490,6 +800,24 @@
 			buildConfigurations = (
 				00E33AC619F2C79A009B5653 /* Debug */,
 				00E33AC719F2C79A009B5653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00ECE7B71A026724001F9D91 /* Build configuration list for PBXNativeTarget "CoreVokabularOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00ECE7B81A026724001F9D91 /* Debug */,
+				00ECE7B91A026724001F9D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00ECE7BA1A026724001F9D91 /* Build configuration list for PBXNativeTarget "CoreVokabularOSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00ECE7BB1A026724001F9D91 /* Debug */,
+				00ECE7BC1A026724001F9D91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

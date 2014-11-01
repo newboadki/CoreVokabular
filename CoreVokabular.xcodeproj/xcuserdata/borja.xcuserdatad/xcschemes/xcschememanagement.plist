@@ -9,6 +9,18 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>CoreVokabularOSX.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>CoreVokabularOSXTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>CoreVokabularTests.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -17,12 +29,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>00B604811A018E9200243649</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>00B6048B1A018E9200243649</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>00E33AAE19F2C79A009B5653</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>00E33AB919F2C79A009B5653</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>00ECE7A31A026724001F9D91</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>00ECE7AD1A026724001F9D91</key>
 		<dict>
 			<key>primary</key>
 			<true/>
