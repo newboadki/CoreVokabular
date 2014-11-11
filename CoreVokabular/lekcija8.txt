@@ -11,7 +11,7 @@ Kitchen:Kuhinja
 Dining room:Blagovaonica
 Midday:Podne
 Pause:pauza
-To last:Trajaiti
+To last:Trajati
 In the middle:u sredini
 To be standing:Stojati
 Around:oko
@@ -28,18 +28,18 @@ Spoon:žlica
 saucepan:tava
 In the morning:Prije podne
 After:poslije
-Pupil:učnik
+Pupil:učenik
 Bedroom:spavaća soba
 Workroom:radna soba
 Desk:radni stol
-bookshelf:polica sknjigama
+bookshelf:polica s knjigama
 Book:knjiga
 About:o
 To begin: Počinjati
 Usually:obično
 Get up: Stizati
 To finish:Završavati se
-District:Naselja
+District:Naselje
 Morning:Jutro
 This morning:Jutros
 In the morning:Ujutro

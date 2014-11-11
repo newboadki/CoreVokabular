@@ -8,15 +8,15 @@ The right place:pravo mjesto
 To invite: pozivati
 To accept (invitation):prihvaćati
 To reside:Stanovati
-Very gladly:verlo rado
+Very gladly:vrlo rado
 Information:podatke
 I'm sorry:Žao mi je
 Tram:Tramvaj
 Again:Opet
-Turn:skreniti
+Turn:skrenuti
 Unfortunately:Na žalost
 Present:Poklon
-Always:Uvjiek
+Always:Uvijek
 Everywhere:svugdje
 System:sistem
 Link:Spajati
@@ -24,7 +24,7 @@ Side:Strana
 Life:Život
 Quite:Miran
 Difficult:Teško
-Directly:Direkto
+Directly:Direktno
 To come(imp):Dolaziti
 To come(perf):Doći
 To give(imp):Davati

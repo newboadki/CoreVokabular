@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		000B59D11A0EB580007AC760 /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = 000B59D01A0EB580007AC760 /* test.txt */; };
+		000B59D21A0EB580007AC760 /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = 000B59D01A0EB580007AC760 /* test.txt */; };
+		000B59D31A0EB580007AC760 /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = 000B59D01A0EB580007AC760 /* test.txt */; };
+		000B59D41A0EB580007AC760 /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = 000B59D01A0EB580007AC760 /* test.txt */; };
 		001D9C5B19FD36F700AC1663 /* WordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001D9C5919FD36F700AC1663 /* WordGenerator.swift */; };
 		001D9C5C19FD36F700AC1663 /* WordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001D9C5919FD36F700AC1663 /* WordGenerator.swift */; };
 		001D9C5D19FD36F700AC1663 /* WordParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001D9C5A19FD36F700AC1663 /* WordParser.swift */; };
@@ -27,10 +31,18 @@
 		0020EDF519FDA42900229CAC /* lekcija11.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0020EDE819FDA42900229CAC /* lekcija11.txt */; };
 		0020EDF619FDA42900229CAC /* lekcija12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0020EDE919FDA42900229CAC /* lekcija12.txt */; };
 		0020EDF719FDA42900229CAC /* lekcija12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0020EDE919FDA42900229CAC /* lekcija12.txt */; };
+		0038B7E81A081A690062CF1D /* lekcija14.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0038B7E71A081A690062CF1D /* lekcija14.txt */; };
+		0038B7E91A081A690062CF1D /* lekcija14.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0038B7E71A081A690062CF1D /* lekcija14.txt */; };
+		0038B7EA1A081A690062CF1D /* lekcija14.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0038B7E71A081A690062CF1D /* lekcija14.txt */; };
+		0038B7EB1A081A690062CF1D /* lekcija14.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0038B7E71A081A690062CF1D /* lekcija14.txt */; };
 		0044A9661A0561B100D6E7DC /* lekcija13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0044A9651A0561B100D6E7DC /* lekcija13.txt */; };
 		0044A9671A0561B100D6E7DC /* lekcija13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0044A9651A0561B100D6E7DC /* lekcija13.txt */; };
 		0044A9681A0561B100D6E7DC /* lekcija13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0044A9651A0561B100D6E7DC /* lekcija13.txt */; };
 		0044A9691A0561B100D6E7DC /* lekcija13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0044A9651A0561B100D6E7DC /* lekcija13.txt */; };
+		00B172021A09717B00C11B49 /* TestExecutionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0044A9731A0582D200D6E7DC /* TestExecutionManager.swift */; };
+		00B172031A09717C00C11B49 /* TestExecutionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0044A9731A0582D200D6E7DC /* TestExecutionManager.swift */; };
+		00B172041A09717D00C11B49 /* TestExecutionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0044A9731A0582D200D6E7DC /* TestExecutionManager.swift */; };
+		00B172051A09717E00C11B49 /* TestExecutionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0044A9731A0582D200D6E7DC /* TestExecutionManager.swift */; };
 		00E33AB519F2C79A009B5653 /* CoreVokabular.h in Headers */ = {isa = PBXBuildFile; fileRef = 00E33AB419F2C79A009B5653 /* CoreVokabular.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00E33ABF19F2C79A009B5653 /* CoreVokabularTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E33ABE19F2C79A009B5653 /* CoreVokabularTests.swift */; };
 		00ECE7A91A026724001F9D91 /* CoreVokabularOSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 00ECE7A81A026724001F9D91 /* CoreVokabularOSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -59,6 +71,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		000B59D01A0EB580007AC760 /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
 		001D9C5919FD36F700AC1663 /* WordGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordGenerator.swift; sourceTree = "<group>"; };
 		001D9C5A19FD36F700AC1663 /* WordParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordParser.swift; sourceTree = "<group>"; };
 		001D9C5F19FD370200AC1663 /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
@@ -69,11 +82,9 @@
 		0020EDE719FDA42900229CAC /* lekcija10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija10.txt; sourceTree = "<group>"; };
 		0020EDE819FDA42900229CAC /* lekcija11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija11.txt; sourceTree = "<group>"; };
 		0020EDE919FDA42900229CAC /* lekcija12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija12.txt; sourceTree = "<group>"; };
+		0038B7E71A081A690062CF1D /* lekcija14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija14.txt; sourceTree = "<group>"; };
 		0044A9651A0561B100D6E7DC /* lekcija13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija13.txt; sourceTree = "<group>"; };
-		00B604851A018E9200243649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00B604861A018E9200243649 /* CoreVokabular_OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVokabular_OSX.h; sourceTree = "<group>"; };
-		00B604921A018E9200243649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00B604931A018E9200243649 /* CoreVokabular_OSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreVokabular_OSXTests.swift; sourceTree = "<group>"; };
+		0044A9731A0582D200D6E7DC /* TestExecutionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestExecutionManager.swift; sourceTree = "<group>"; };
 		00E33AAF19F2C79A009B5653 /* CoreVokabular.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreVokabular.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E33AB319F2C79A009B5653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E33AB419F2C79A009B5653 /* CoreVokabular.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVokabular.h; sourceTree = "<group>"; };
@@ -122,47 +133,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00B604831A018E9200243649 /* CoreVokabular_OSX */ = {
-			isa = PBXGroup;
-			children = (
-				00B604861A018E9200243649 /* CoreVokabular_OSX.h */,
-				00B604841A018E9200243649 /* Supporting Files */,
-			);
-			path = CoreVokabular_OSX;
-			sourceTree = "<group>";
-		};
-		00B604841A018E9200243649 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				00B604851A018E9200243649 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		00B604901A018E9200243649 /* CoreVokabular_OSXTests */ = {
-			isa = PBXGroup;
-			children = (
-				00B604931A018E9200243649 /* CoreVokabular_OSXTests.swift */,
-				00B604911A018E9200243649 /* Supporting Files */,
-			);
-			path = CoreVokabular_OSXTests;
-			sourceTree = "<group>";
-		};
-		00B604911A018E9200243649 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				00B604921A018E9200243649 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		00E33AA519F2C79A009B5653 = {
 			isa = PBXGroup;
 			children = (
 				00E33AB119F2C79A009B5653 /* CoreVokabular */,
 				00E33ABB19F2C79A009B5653 /* CoreVokabularTests */,
-				00B604831A018E9200243649 /* CoreVokabular_OSX */,
-				00B604901A018E9200243649 /* CoreVokabular_OSXTests */,
 				00ECE7A51A026724001F9D91 /* CoreVokabularOSX */,
 				00ECE7B21A026724001F9D91 /* CoreVokabularOSXTests */,
 				00E33AB019F2C79A009B5653 /* Products */,
@@ -196,6 +171,8 @@
 			children = (
 				0020EDE319FDA42900229CAC /* index.plist */,
 				0020EDE419FDA42900229CAC /* lekcija6.txt */,
+				000B59D01A0EB580007AC760 /* test.txt */,
+				0038B7E71A081A690062CF1D /* lekcija14.txt */,
 				0020EDE519FDA42900229CAC /* lekcija8.txt */,
 				0020EDE619FDA42900229CAC /* lekcija9.txt */,
 				0020EDE719FDA42900229CAC /* lekcija10.txt */,
@@ -229,7 +206,6 @@
 			children = (
 				00E33ADC19F2C8AA009B5653 /* Controllers */,
 				00E33ADF19F2C8AA009B5653 /* Models */,
-				00E33AE119F2C8AA009B5653 /* ViewControllers */,
 			);
 			path = source;
 			sourceTree = "<group>";
@@ -239,6 +215,7 @@
 			children = (
 				001D9C5919FD36F700AC1663 /* WordGenerator.swift */,
 				001D9C5A19FD36F700AC1663 /* WordParser.swift */,
+				0044A9731A0582D200D6E7DC /* TestExecutionManager.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -249,13 +226,6 @@
 				001D9C5F19FD370200AC1663 /* Word.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		00E33AE119F2C8AA009B5653 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		00ECE7A51A026724001F9D91 /* CoreVokabularOSX */ = {
@@ -437,10 +407,12 @@
 				0020EDF219FDA42900229CAC /* lekcija10.txt in Resources */,
 				0044A9661A0561B100D6E7DC /* lekcija13.txt in Resources */,
 				0020EDF419FDA42900229CAC /* lekcija11.txt in Resources */,
+				000B59D11A0EB580007AC760 /* test.txt in Resources */,
 				0020EDEA19FDA42900229CAC /* index.plist in Resources */,
 				0020EDF019FDA42900229CAC /* lekcija9.txt in Resources */,
 				0020EDF619FDA42900229CAC /* lekcija12.txt in Resources */,
 				0020EDEC19FDA42900229CAC /* lekcija6.txt in Resources */,
+				0038B7E81A081A690062CF1D /* lekcija14.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,10 +424,12 @@
 				0020EDF319FDA42900229CAC /* lekcija10.txt in Resources */,
 				0044A9671A0561B100D6E7DC /* lekcija13.txt in Resources */,
 				0020EDF519FDA42900229CAC /* lekcija11.txt in Resources */,
+				000B59D21A0EB580007AC760 /* test.txt in Resources */,
 				0020EDEB19FDA42900229CAC /* index.plist in Resources */,
 				0020EDF119FDA42900229CAC /* lekcija9.txt in Resources */,
 				0020EDF719FDA42900229CAC /* lekcija12.txt in Resources */,
 				0020EDED19FDA42900229CAC /* lekcija6.txt in Resources */,
+				0038B7E91A081A690062CF1D /* lekcija14.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,10 +441,12 @@
 				00ECE7C11A0268EA001F9D91 /* lekcija6.txt in Resources */,
 				0044A9681A0561B100D6E7DC /* lekcija13.txt in Resources */,
 				00ECE7C31A0268EE001F9D91 /* lekcija9.txt in Resources */,
+				000B59D31A0EB580007AC760 /* test.txt in Resources */,
 				00ECE7C61A0268F4001F9D91 /* lekcija12.txt in Resources */,
 				00ECE7C51A0268F2001F9D91 /* lekcija11.txt in Resources */,
 				00ECE7C21A0268EC001F9D91 /* lekcija8.txt in Resources */,
 				00ECE7C41A0268F0001F9D91 /* lekcija10.txt in Resources */,
+				0038B7EA1A081A690062CF1D /* lekcija14.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +455,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0044A9691A0561B100D6E7DC /* lekcija13.txt in Resources */,
+				000B59D41A0EB580007AC760 /* test.txt in Resources */,
+				0038B7EB1A081A690062CF1D /* lekcija14.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +467,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00B172021A09717B00C11B49 /* TestExecutionManager.swift in Sources */,
 				001D9C5D19FD36F700AC1663 /* WordParser.swift in Sources */,
 				001D9C5B19FD36F700AC1663 /* WordGenerator.swift in Sources */,
 				001D9C6019FD370200AC1663 /* Word.swift in Sources */,
@@ -500,6 +479,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				001D9C5E19FD36F700AC1663 /* WordParser.swift in Sources */,
+				00B172031A09717C00C11B49 /* TestExecutionManager.swift in Sources */,
 				001D9C6119FD370200AC1663 /* Word.swift in Sources */,
 				00E33ABF19F2C79A009B5653 /* CoreVokabularTests.swift in Sources */,
 				001D9C5C19FD36F700AC1663 /* WordGenerator.swift in Sources */,
@@ -510,6 +490,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00B172041A09717D00C11B49 /* TestExecutionManager.swift in Sources */,
 				00ECE7BD1A0268D9001F9D91 /* WordGenerator.swift in Sources */,
 				00ECE7BE1A0268DB001F9D91 /* WordParser.swift in Sources */,
 				00ECE7BF1A0268DD001F9D91 /* Word.swift in Sources */,
@@ -520,6 +501,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00B172051A09717E00C11B49 /* TestExecutionManager.swift in Sources */,
 				00ECE7B61A026724001F9D91 /* CoreVokabularOSXTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

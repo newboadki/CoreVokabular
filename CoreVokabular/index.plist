@@ -44,5 +44,17 @@
 		<key>fileName</key>
 		<string>lekcija13</string>
 	</dict>
+	<dict>
+		<key>displayName</key>
+		<string>Lekcija14: Ako pada kiša</string>
+		<key>fileName</key>
+		<string>lekcija14</string>
+	</dict>
+	<dict>
+		<key>displayName</key>
+		<string>TEST</string>
+		<key>fileName</key>
+		<string>test</string>
+	</dict>
 </array>
 </plist>

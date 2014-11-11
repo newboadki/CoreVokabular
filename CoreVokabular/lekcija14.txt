@@ -1,0 +1,50 @@
+To get up(imp):Ustajati
+To get up(perf):Ustati
+Early:rano
+To leave(imp):ostavljati
+To leave(perf):ostaviti
+Message:poruka
+To put(imp):stavljati
+To put(perf):staviti
+Towel:ručnik
+To dry(imp):sušiti se
+To dry(perf):osušiti se
+Dry(adj):Suh
+To go away(imp):odlaziti
+To go away(perf):otići
+Suggestion:Prijedlog
+Monestary:samostan
+To enter(imp):ulaziti
+To enter(perf):ući
+Just now:Upravo
+To wake up(imp):buditi se
+To wake up(imp):probuditi se
+Too much:previše
+Perhaps:Možda
+Cloud:Oblak
+Possible:mogući
+Probably:vjerojatno
+To exist(imp):postojati
+Possibility:mogućnost
+Meeting:sastanak
+Beginning:početak
+Bridge:Most
+Makes sense:ima smisla
+Turist(masc):Turist
+Turist(masc):Turistkinja
+Handbag:Torba
+Police station:Policijska postaja
+Steal(imp):Krasti
+Steal(perf):Ukrasti
+Wallet:Novčanik
+Passport:Putovnica
+What color is?: A koje je boje
+Weak:Slab
+Frost:Mraz
+Fog:Magla
+Mist:Sumaglica
+Cloudy:Oblačno
+To set off(imp):Polaziti
+To set off(perf):Poći
+To cross(imp):prelaziti
+To cross(perf):prijeći
