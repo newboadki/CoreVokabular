@@ -39,6 +39,7 @@
 		0044A9671A0561B100D6E7DC /* lekcija13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0044A9651A0561B100D6E7DC /* lekcija13.txt */; };
 		0044A9681A0561B100D6E7DC /* lekcija13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0044A9651A0561B100D6E7DC /* lekcija13.txt */; };
 		0044A9691A0561B100D6E7DC /* lekcija13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0044A9651A0561B100D6E7DC /* lekcija13.txt */; };
+		007C6CDF1A12A3B300A6C5C0 /* TestExecutionManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007C6CDE1A12A3B300A6C5C0 /* TestExecutionManagerTests.swift */; };
 		00B172021A09717B00C11B49 /* TestExecutionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0044A9731A0582D200D6E7DC /* TestExecutionManager.swift */; };
 		00B172031A09717C00C11B49 /* TestExecutionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0044A9731A0582D200D6E7DC /* TestExecutionManager.swift */; };
 		00B172041A09717D00C11B49 /* TestExecutionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0044A9731A0582D200D6E7DC /* TestExecutionManager.swift */; };
@@ -85,6 +86,7 @@
 		0038B7E71A081A690062CF1D /* lekcija14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija14.txt; sourceTree = "<group>"; };
 		0044A9651A0561B100D6E7DC /* lekcija13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija13.txt; sourceTree = "<group>"; };
 		0044A9731A0582D200D6E7DC /* TestExecutionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestExecutionManager.swift; sourceTree = "<group>"; };
+		007C6CDE1A12A3B300A6C5C0 /* TestExecutionManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestExecutionManagerTests.swift; sourceTree = "<group>"; };
 		00E33AAF19F2C79A009B5653 /* CoreVokabular.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreVokabular.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E33AB319F2C79A009B5653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E33AB419F2C79A009B5653 /* CoreVokabular.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVokabular.h; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 			children = (
 				00E33ABE19F2C79A009B5653 /* CoreVokabularTests.swift */,
 				00E33ABC19F2C79A009B5653 /* Supporting Files */,
+				007C6CDE1A12A3B300A6C5C0 /* TestExecutionManagerTests.swift */,
 			);
 			path = CoreVokabularTests;
 			sourceTree = "<group>";
@@ -482,6 +485,7 @@
 				00B172031A09717C00C11B49 /* TestExecutionManager.swift in Sources */,
 				001D9C6119FD370200AC1663 /* Word.swift in Sources */,
 				00E33ABF19F2C79A009B5653 /* CoreVokabularTests.swift in Sources */,
+				007C6CDF1A12A3B300A6C5C0 /* TestExecutionManagerTests.swift in Sources */,
 				001D9C5C19FD36F700AC1663 /* WordGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

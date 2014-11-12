@@ -23,7 +23,7 @@ public class TestExecutionManager
     // State
     public var currentWord : Word?
     public var numberOfCorrectAnswers : Int = 0
-    public var count : Int = 1
+    public var count : Int = 0
     public var total : Int = 0
     public var selectedLesson : Dictionary<String, String>
     
@@ -46,6 +46,7 @@ public class TestExecutionManager
     {
         if self.previousWord == nil
         {
+            self.count += 1
             return self.currentWord
         }
         else
@@ -61,22 +62,23 @@ public class TestExecutionManager
     {
         var correctAnswer : String? = self.currentWord?.synonyms[0]
         correctAnswer = correctAnswer?.lowercaseString.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceCharacterSet())
-        var safeGivenAnswer = givenAnswer.lowercaseString.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceCharacterSet())
+        var safeGivenAnswer :String? = givenAnswer.lowercaseString.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceCharacterSet())
         
-        self.previousWord = self.currentWord // Store the old one
+        
         if safeGivenAnswer == correctAnswer
         {
             if (self.previousWord != self.currentWord)
             {
                 self.numberOfCorrectAnswers = self.numberOfCorrectAnswers + 1
             }
-            
+            self.previousWord = self.currentWord // Store the old one
             self.count += 1
             self.currentWord = self.wordGenerator!.nextWord()?
             self.delegate.handleCorrectAnswerWithNextWord(self.currentWord)
         }
         else
         {
+            self.previousWord = self.currentWord // Store the old one
             self.delegate.handleFailedAttemptWithCorrectAnswer(correctAnswer!)
         }
     }
