@@ -52,6 +52,12 @@
 	</dict>
 	<dict>
 		<key>displayName</key>
+		<string>Lekcija15: Kako se osiećate</string>
+		<key>fileName</key>
+		<string>lekcija15</string>
+	</dict>
+	<dict>
+		<key>displayName</key>
 		<string>TEST</string>
 		<key>fileName</key>
 		<string>test</string>

@@ -40,6 +40,10 @@
 		0044A9681A0561B100D6E7DC /* lekcija13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0044A9651A0561B100D6E7DC /* lekcija13.txt */; };
 		0044A9691A0561B100D6E7DC /* lekcija13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0044A9651A0561B100D6E7DC /* lekcija13.txt */; };
 		007C6CDF1A12A3B300A6C5C0 /* TestExecutionManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007C6CDE1A12A3B300A6C5C0 /* TestExecutionManagerTests.swift */; };
+		007C6CE41A14002500A6C5C0 /* lekcija15.txt in Resources */ = {isa = PBXBuildFile; fileRef = 007C6CE31A14002500A6C5C0 /* lekcija15.txt */; };
+		007C6CE51A14002500A6C5C0 /* lekcija15.txt in Resources */ = {isa = PBXBuildFile; fileRef = 007C6CE31A14002500A6C5C0 /* lekcija15.txt */; };
+		007C6CE61A14002500A6C5C0 /* lekcija15.txt in Resources */ = {isa = PBXBuildFile; fileRef = 007C6CE31A14002500A6C5C0 /* lekcija15.txt */; };
+		007C6CE71A14002500A6C5C0 /* lekcija15.txt in Resources */ = {isa = PBXBuildFile; fileRef = 007C6CE31A14002500A6C5C0 /* lekcija15.txt */; };
 		00B172021A09717B00C11B49 /* TestExecutionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0044A9731A0582D200D6E7DC /* TestExecutionManager.swift */; };
 		00B172031A09717C00C11B49 /* TestExecutionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0044A9731A0582D200D6E7DC /* TestExecutionManager.swift */; };
 		00B172041A09717D00C11B49 /* TestExecutionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0044A9731A0582D200D6E7DC /* TestExecutionManager.swift */; };
@@ -87,6 +91,7 @@
 		0044A9651A0561B100D6E7DC /* lekcija13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija13.txt; sourceTree = "<group>"; };
 		0044A9731A0582D200D6E7DC /* TestExecutionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestExecutionManager.swift; sourceTree = "<group>"; };
 		007C6CDE1A12A3B300A6C5C0 /* TestExecutionManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestExecutionManagerTests.swift; sourceTree = "<group>"; };
+		007C6CE31A14002500A6C5C0 /* lekcija15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija15.txt; sourceTree = "<group>"; };
 		00E33AAF19F2C79A009B5653 /* CoreVokabular.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreVokabular.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E33AB319F2C79A009B5653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E33AB419F2C79A009B5653 /* CoreVokabular.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVokabular.h; sourceTree = "<group>"; };
@@ -175,6 +180,7 @@
 				0020EDE419FDA42900229CAC /* lekcija6.txt */,
 				000B59D01A0EB580007AC760 /* test.txt */,
 				0038B7E71A081A690062CF1D /* lekcija14.txt */,
+				007C6CE31A14002500A6C5C0 /* lekcija15.txt */,
 				0020EDE519FDA42900229CAC /* lekcija8.txt */,
 				0020EDE619FDA42900229CAC /* lekcija9.txt */,
 				0020EDE719FDA42900229CAC /* lekcija10.txt */,
@@ -409,6 +415,7 @@
 				0020EDEE19FDA42900229CAC /* lekcija8.txt in Resources */,
 				0020EDF219FDA42900229CAC /* lekcija10.txt in Resources */,
 				0044A9661A0561B100D6E7DC /* lekcija13.txt in Resources */,
+				007C6CE41A14002500A6C5C0 /* lekcija15.txt in Resources */,
 				0020EDF419FDA42900229CAC /* lekcija11.txt in Resources */,
 				000B59D11A0EB580007AC760 /* test.txt in Resources */,
 				0020EDEA19FDA42900229CAC /* index.plist in Resources */,
@@ -426,6 +433,7 @@
 				0020EDEF19FDA42900229CAC /* lekcija8.txt in Resources */,
 				0020EDF319FDA42900229CAC /* lekcija10.txt in Resources */,
 				0044A9671A0561B100D6E7DC /* lekcija13.txt in Resources */,
+				007C6CE51A14002500A6C5C0 /* lekcija15.txt in Resources */,
 				0020EDF519FDA42900229CAC /* lekcija11.txt in Resources */,
 				000B59D21A0EB580007AC760 /* test.txt in Resources */,
 				0020EDEB19FDA42900229CAC /* index.plist in Resources */,
@@ -443,6 +451,7 @@
 				00ECE7C01A0268E8001F9D91 /* index.plist in Resources */,
 				00ECE7C11A0268EA001F9D91 /* lekcija6.txt in Resources */,
 				0044A9681A0561B100D6E7DC /* lekcija13.txt in Resources */,
+				007C6CE61A14002500A6C5C0 /* lekcija15.txt in Resources */,
 				00ECE7C31A0268EE001F9D91 /* lekcija9.txt in Resources */,
 				000B59D31A0EB580007AC760 /* test.txt in Resources */,
 				00ECE7C61A0268F4001F9D91 /* lekcija12.txt in Resources */,
@@ -457,6 +466,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				007C6CE71A14002500A6C5C0 /* lekcija15.txt in Resources */,
 				0044A9691A0561B100D6E7DC /* lekcija13.txt in Resources */,
 				000B59D41A0EB580007AC760 /* test.txt in Resources */,
 				0038B7EB1A081A690062CF1D /* lekcija14.txt in Resources */,

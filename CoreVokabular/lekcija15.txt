@@ -1,0 +1,35 @@
+Hotel room:Hotelska soba
+To become(imp):Postajati
+To become(perf):Postati
+To feel(imp):Osjećati se
+To feel(perf):Osjetiti se
+Truth:Istina
+Cough:Kašalj
+To cough:Kašlajati
+To hear:čuti
+To stop:prestati
+To worry:Brinuti se
+Dangerous:opasan
+To have a cold:Biti prehlađen
+Soon:Uskoro
+hospital:bolnica
+doctor:liječnik
+Ill:bolestan
+Later:Kasnije
+Throat:grlo
+Mouth:usta
+Infection:infekcija
+Medicine:Lijek
+Aganst:protiv
+Shoulder:Rame
+To ask to do something:Moliti
+To announce:Prijaviti
+Payment:Plaćanje
+To hand over:To hand over
+Garage:Garaža
+To wash:Prati
+To iron:Glačati
+Laundry:Rublje
+Business meeting:Poslovni sastanak
+Otherwise:Inače
+Car park:parkiralište
