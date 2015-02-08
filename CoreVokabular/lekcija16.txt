@@ -1,0 +1,30 @@
+To question(imp):ispitivati
+To question(perf):ispitati
+At least:konačno
+Everyday:svakodnevni
+To consider:smatrati
+Market:tržište
+Product:proizvod
+Success:Uspjeh
+Infracstructure:Infrastruktura
+Again:ponovo
+To Send(imp):slati
+To Send(perf):poslati
+Boss:šef
+Useful:Koristan
+Carefully:pažljivo
+Knowledge:znaje
+Which:koji
+To change(imp):Hijenjati se
+To change(perf):promijeniti se
+Exclusive: isključiv
+Short-term plan:Kratkoročni plan
+Discuss(imp):Razmatrati
+Discuss(perf):Razmotriti
+Department:odjel
+Transport department:Transportni odjel
+Advertising department:reklamni odjel
+Bank transfer:transfer preko banke
+Condition:uvjet
+Offer:ponuda
+To cooperate:Surađivati

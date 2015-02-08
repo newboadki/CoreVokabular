@@ -52,15 +52,15 @@
 	</dict>
 	<dict>
 		<key>displayName</key>
-		<string>Lekcija15: Kako se osiećate</string>
+		<string>Lekcija15: Kako se osjećate</string>
 		<key>fileName</key>
 		<string>lekcija15</string>
 	</dict>
 	<dict>
 		<key>displayName</key>
-		<string>TEST</string>
+		<string>Lekcija16: Poslovni ugovor</string>
 		<key>fileName</key>
-		<string>test</string>
+		<string>lekcija16</string>
 	</dict>
 </array>
 </plist>
