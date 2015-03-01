@@ -31,6 +31,10 @@
 		0038B7E91A081A690062CF1D /* lekcija14.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0038B7E71A081A690062CF1D /* lekcija14.txt */; };
 		0038B7EA1A081A690062CF1D /* lekcija14.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0038B7E71A081A690062CF1D /* lekcija14.txt */; };
 		0038B7EB1A081A690062CF1D /* lekcija14.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0038B7E71A081A690062CF1D /* lekcija14.txt */; };
+		0043A9A21A879C4D0081B4BD /* lekcija17.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0043A9A11A879C4D0081B4BD /* lekcija17.txt */; };
+		0043A9A31A879C4D0081B4BD /* lekcija17.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0043A9A11A879C4D0081B4BD /* lekcija17.txt */; };
+		0043A9A41A879C4D0081B4BD /* lekcija17.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0043A9A11A879C4D0081B4BD /* lekcija17.txt */; };
+		0043A9A51A879C4D0081B4BD /* lekcija17.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0043A9A11A879C4D0081B4BD /* lekcija17.txt */; };
 		0044A9661A0561B100D6E7DC /* lekcija13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0044A9651A0561B100D6E7DC /* lekcija13.txt */; };
 		0044A9671A0561B100D6E7DC /* lekcija13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0044A9651A0561B100D6E7DC /* lekcija13.txt */; };
 		0044A9681A0561B100D6E7DC /* lekcija13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0044A9651A0561B100D6E7DC /* lekcija13.txt */; };
@@ -87,6 +91,7 @@
 		0020EDE819FDA42900229CAC /* lekcija11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija11.txt; sourceTree = "<group>"; };
 		0020EDE919FDA42900229CAC /* lekcija12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija12.txt; sourceTree = "<group>"; };
 		0038B7E71A081A690062CF1D /* lekcija14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija14.txt; sourceTree = "<group>"; };
+		0043A9A11A879C4D0081B4BD /* lekcija17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija17.txt; sourceTree = "<group>"; };
 		0044A9651A0561B100D6E7DC /* lekcija13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija13.txt; sourceTree = "<group>"; };
 		0044A9731A0582D200D6E7DC /* TestExecutionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestExecutionManager.swift; sourceTree = "<group>"; };
 		007364EF1A222CBD00AAEF31 /* lekcija16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija16.txt; sourceTree = "<group>"; };
@@ -187,6 +192,7 @@
 				0020EDE919FDA42900229CAC /* lekcija12.txt */,
 				0044A9651A0561B100D6E7DC /* lekcija13.txt */,
 				007364EF1A222CBD00AAEF31 /* lekcija16.txt */,
+				0043A9A11A879C4D0081B4BD /* lekcija17.txt */,
 				00E33AB319F2C79A009B5653 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -414,6 +420,7 @@
 			files = (
 				0020EDEE19FDA42900229CAC /* lekcija8.txt in Resources */,
 				0020EDF219FDA42900229CAC /* lekcija10.txt in Resources */,
+				0043A9A21A879C4D0081B4BD /* lekcija17.txt in Resources */,
 				0044A9661A0561B100D6E7DC /* lekcija13.txt in Resources */,
 				007C6CE41A14002500A6C5C0 /* lekcija15.txt in Resources */,
 				0020EDF419FDA42900229CAC /* lekcija11.txt in Resources */,
@@ -432,6 +439,7 @@
 			files = (
 				0020EDEF19FDA42900229CAC /* lekcija8.txt in Resources */,
 				0020EDF319FDA42900229CAC /* lekcija10.txt in Resources */,
+				0043A9A31A879C4D0081B4BD /* lekcija17.txt in Resources */,
 				0044A9671A0561B100D6E7DC /* lekcija13.txt in Resources */,
 				007C6CE51A14002500A6C5C0 /* lekcija15.txt in Resources */,
 				0020EDF519FDA42900229CAC /* lekcija11.txt in Resources */,
@@ -450,6 +458,7 @@
 			files = (
 				00ECE7C01A0268E8001F9D91 /* index.plist in Resources */,
 				00ECE7C11A0268EA001F9D91 /* lekcija6.txt in Resources */,
+				0043A9A41A879C4D0081B4BD /* lekcija17.txt in Resources */,
 				0044A9681A0561B100D6E7DC /* lekcija13.txt in Resources */,
 				007C6CE61A14002500A6C5C0 /* lekcija15.txt in Resources */,
 				00ECE7C31A0268EE001F9D91 /* lekcija9.txt in Resources */,
@@ -468,6 +477,7 @@
 			files = (
 				007C6CE71A14002500A6C5C0 /* lekcija15.txt in Resources */,
 				007364F31A222CBD00AAEF31 /* lekcija16.txt in Resources */,
+				0043A9A51A879C4D0081B4BD /* lekcija17.txt in Resources */,
 				0044A9691A0561B100D6E7DC /* lekcija13.txt in Resources */,
 				0038B7EB1A081A690062CF1D /* lekcija14.txt in Resources */,
 			);
