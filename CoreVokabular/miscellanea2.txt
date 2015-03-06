@@ -1,0 +1,24 @@
+Salir : Izletjeti
+Establo : Staja
+Rama: Grana
+Nuez : Orah
+De campo :Seoska
+Paja : Slama
+Oscuro: mračno
+Humeante : Sparno
+Respirar:Disati
+Cama : Postalja
+Estar tendido:Ležati
+De repente : Odjednom
+Sonámbulo: Mjesečar
+Ojos fijos :Upiljio oči
+Sueño (dream): San
+Voz: Glas
+Njiva : Campo
+Movimiento : gibanje
+Sosfocarse : ugušiti se:
+oxígeno: kisik
+Asignatura : predmet
+Examen: ispid
+Excusa: Izgovor
+Imprenta: Tiskara

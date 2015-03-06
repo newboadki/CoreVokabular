@@ -48,6 +48,10 @@
 		007C6CE51A14002500A6C5C0 /* lekcija15.txt in Resources */ = {isa = PBXBuildFile; fileRef = 007C6CE31A14002500A6C5C0 /* lekcija15.txt */; };
 		007C6CE61A14002500A6C5C0 /* lekcija15.txt in Resources */ = {isa = PBXBuildFile; fileRef = 007C6CE31A14002500A6C5C0 /* lekcija15.txt */; };
 		007C6CE71A14002500A6C5C0 /* lekcija15.txt in Resources */ = {isa = PBXBuildFile; fileRef = 007C6CE31A14002500A6C5C0 /* lekcija15.txt */; };
+		00A1EFE71AA38DC700F68AE6 /* miscellanea2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00A1EFE61AA38DC700F68AE6 /* miscellanea2.txt */; };
+		00A1EFE81AA38DC700F68AE6 /* miscellanea2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00A1EFE61AA38DC700F68AE6 /* miscellanea2.txt */; };
+		00A1EFE91AA38DC700F68AE6 /* miscellanea2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00A1EFE61AA38DC700F68AE6 /* miscellanea2.txt */; };
+		00A1EFEA1AA38DC700F68AE6 /* miscellanea2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00A1EFE61AA38DC700F68AE6 /* miscellanea2.txt */; };
 		00B172021A09717B00C11B49 /* TestExecutionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0044A9731A0582D200D6E7DC /* TestExecutionManager.swift */; };
 		00B172031A09717C00C11B49 /* TestExecutionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0044A9731A0582D200D6E7DC /* TestExecutionManager.swift */; };
 		00B172041A09717D00C11B49 /* TestExecutionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0044A9731A0582D200D6E7DC /* TestExecutionManager.swift */; };
@@ -97,6 +101,7 @@
 		007364EF1A222CBD00AAEF31 /* lekcija16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija16.txt; sourceTree = "<group>"; };
 		007C6CDE1A12A3B300A6C5C0 /* TestExecutionManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestExecutionManagerTests.swift; sourceTree = "<group>"; };
 		007C6CE31A14002500A6C5C0 /* lekcija15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija15.txt; sourceTree = "<group>"; };
+		00A1EFE61AA38DC700F68AE6 /* miscellanea2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = miscellanea2.txt; sourceTree = "<group>"; };
 		00E33AAF19F2C79A009B5653 /* CoreVokabular.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreVokabular.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E33AB319F2C79A009B5653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E33AB419F2C79A009B5653 /* CoreVokabular.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreVokabular.h; sourceTree = "<group>"; };
@@ -193,6 +198,7 @@
 				0044A9651A0561B100D6E7DC /* lekcija13.txt */,
 				007364EF1A222CBD00AAEF31 /* lekcija16.txt */,
 				0043A9A11A879C4D0081B4BD /* lekcija17.txt */,
+				00A1EFE61AA38DC700F68AE6 /* miscellanea2.txt */,
 				00E33AB319F2C79A009B5653 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -425,6 +431,7 @@
 				007C6CE41A14002500A6C5C0 /* lekcija15.txt in Resources */,
 				0020EDF419FDA42900229CAC /* lekcija11.txt in Resources */,
 				0020EDEA19FDA42900229CAC /* index.plist in Resources */,
+				00A1EFE71AA38DC700F68AE6 /* miscellanea2.txt in Resources */,
 				0020EDF019FDA42900229CAC /* lekcija9.txt in Resources */,
 				0020EDF619FDA42900229CAC /* lekcija12.txt in Resources */,
 				007364F01A222CBD00AAEF31 /* lekcija16.txt in Resources */,
@@ -444,6 +451,7 @@
 				007C6CE51A14002500A6C5C0 /* lekcija15.txt in Resources */,
 				0020EDF519FDA42900229CAC /* lekcija11.txt in Resources */,
 				0020EDEB19FDA42900229CAC /* index.plist in Resources */,
+				00A1EFE81AA38DC700F68AE6 /* miscellanea2.txt in Resources */,
 				0020EDF119FDA42900229CAC /* lekcija9.txt in Resources */,
 				0020EDF719FDA42900229CAC /* lekcija12.txt in Resources */,
 				007364F11A222CBD00AAEF31 /* lekcija16.txt in Resources */,
@@ -463,6 +471,7 @@
 				007C6CE61A14002500A6C5C0 /* lekcija15.txt in Resources */,
 				00ECE7C31A0268EE001F9D91 /* lekcija9.txt in Resources */,
 				00ECE7C61A0268F4001F9D91 /* lekcija12.txt in Resources */,
+				00A1EFE91AA38DC700F68AE6 /* miscellanea2.txt in Resources */,
 				00ECE7C51A0268F2001F9D91 /* lekcija11.txt in Resources */,
 				00ECE7C21A0268EC001F9D91 /* lekcija8.txt in Resources */,
 				007364F21A222CBD00AAEF31 /* lekcija16.txt in Resources */,
@@ -477,6 +486,7 @@
 			files = (
 				007C6CE71A14002500A6C5C0 /* lekcija15.txt in Resources */,
 				007364F31A222CBD00AAEF31 /* lekcija16.txt in Resources */,
+				00A1EFEA1AA38DC700F68AE6 /* miscellanea2.txt in Resources */,
 				0043A9A51A879C4D0081B4BD /* lekcija17.txt in Resources */,
 				0044A9691A0561B100D6E7DC /* lekcija13.txt in Resources */,
 				0038B7EB1A081A690062CF1D /* lekcija14.txt in Resources */,

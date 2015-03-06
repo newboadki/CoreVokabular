@@ -68,5 +68,11 @@
 		<key>fileName</key>
 		<string>lekcija17</string>
 	</dict>
+	<dict>
+		<key>displayName</key>
+		<string>Miscellanea 2</string>
+		<key>fileName</key>
+		<string>miscellanea2.txt</string>
+	</dict>
 </array>
 </plist>

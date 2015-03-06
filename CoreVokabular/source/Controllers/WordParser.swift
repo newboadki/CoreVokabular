@@ -51,7 +51,7 @@ public class WordParser : NSObject
         let bundle = NSBundle(forClass: self.classForCoder())
         let indexFilePath : NSString? = bundle.pathForResource("index", ofType: "plist")
         assert(indexFilePath != nil, "Couldn't load the index file")
-        let array = NSArray(contentsOfFile: indexFilePath!)
+        let array = NSArray(contentsOfFile: indexFilePath! as! String)
         
         return array!
     }

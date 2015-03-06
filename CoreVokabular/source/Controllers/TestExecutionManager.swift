@@ -73,7 +73,7 @@ public class TestExecutionManager
             }
             self.previousWord = self.currentWord // Store the old one
             self.count += 1
-            self.currentWord = self.wordGenerator!.nextWord()?
+            self.currentWord = self.wordGenerator!.nextWord()
             self.delegate.handleCorrectAnswerWithNextWord(self.currentWord)
         }
         else
