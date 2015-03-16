@@ -16,7 +16,7 @@ Sueño (dream): San
 Voz: Glas
 Njiva : Campo
 Movimiento : gibanje
-Sosfocarse : ugušiti se:
+Sosfocarse : ugušiti se
 oxígeno: kisik
 Asignatura : predmet
 Examen: ispid

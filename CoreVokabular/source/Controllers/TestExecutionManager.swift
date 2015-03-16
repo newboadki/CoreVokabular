@@ -35,10 +35,10 @@ public class TestExecutionManager
     {
         var parser = WordParser()
         self.selectedLesson = selectedLesson
-        var words = parser.parseWordsFromFileWithIndexKey(self.selectedLesson["fileName"]!)
+        var words = parser.parseWordsFromFileInfo(self.selectedLesson)
         self.total = words.count
         self.wordGenerator = WordGenerator(words: words, numberOfWordsToGenerate: words.count)
-        self.currentWord = self.wordGenerator!.nextWord()!
+        self.currentWord = self.wordGenerator!.nextWord()
         self.delegate = delegate
     }
     

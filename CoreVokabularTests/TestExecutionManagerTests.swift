@@ -15,7 +15,7 @@ class TestExecutionManagerTests: XCTestCase, TestExecutionDelegate {
     override func setUp()
     {
         super.setUp()
-        self.executionManager = TestExecutionManager(delegate: self, selectedLesson: ["displayName" : "TEST", "fileName": "test"])
+        self.executionManager = TestExecutionManager(delegate: self, selectedLesson: ["displayName" : "TEST", "fileName": "test", "imported" : "false"])
     
     }
     
@@ -40,13 +40,6 @@ class TestExecutionManagerTests: XCTestCase, TestExecutionDelegate {
         self.executionManager!.processGivenAnswer("correct")
         XCTAssert(self.executionManager?.count == 3, "")
         XCTAssert(self.executionManager?.numberOfCorrectAnswers == 1, "")
-    }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measureBlock() {
-            // Put the code you want to measure the time of here.
-        }
     }
     
     // DELEGATE
