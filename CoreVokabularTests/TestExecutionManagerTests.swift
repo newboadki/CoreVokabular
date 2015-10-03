@@ -26,7 +26,7 @@ class TestExecutionManagerTests: XCTestCase, TestExecutionDelegate {
 
     func testCount()
     {
-        var word = self.executionManager?.initialWord()
+        let word = self.executionManager?.initialWord()
         XCTAssertTrue(word != nil, "")
         
         self.executionManager!.processGivenAnswer("wrong")
@@ -38,7 +38,7 @@ class TestExecutionManagerTests: XCTestCase, TestExecutionDelegate {
         XCTAssert(self.executionManager?.numberOfCorrectAnswers == 0, "")
 
         self.executionManager!.processGivenAnswer("correct")
-        XCTAssert(self.executionManager?.count == 3, "")
+        XCTAssert(self.executionManager?.count == 2, "")
         XCTAssert(self.executionManager?.numberOfCorrectAnswers == 1, "")
     }
     

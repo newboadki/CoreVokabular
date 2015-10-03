@@ -8,9 +8,13 @@
 
 import Foundation
 
+/** 
+- Consider make this class use value semantics 
+- We could transform this class to conform to the GeneratorType protocol, and have a different class be the class conforming to SequenceType that would use this generator
+    Basically An array of words would be the collection or sequence. And RandomWordGenerator would conform to GeneratorType
+*/
 public class WordGenerator: NSObject
 {
-    
     let words : [Word]
     let numberOfWordsToGenerate : Int
     var currentIndex : Int = 0
@@ -26,8 +30,8 @@ public class WordGenerator: NSObject
         var generatedIndexes = [Int]()
         while (generatedIndexes.count < numberOfWordsToGenerate)
         {
-            var randomIndex = Int(arc4random_uniform(UInt32(self.words.count)))
-            if (!contains(generatedIndexes, randomIndex))
+            let randomIndex = Int(arc4random_uniform(UInt32(self.words.count)))
+            if (!generatedIndexes.contains(randomIndex))
             {
                 self.generatedWords.append(self.words[randomIndex])
                 generatedIndexes.append(randomIndex)
@@ -44,7 +48,7 @@ public class WordGenerator: NSObject
         }
         else
         {
-            var word = self.generatedWords[self.currentIndex]
+            let word = self.generatedWords[self.currentIndex]
             self.currentIndex = self.currentIndex + 1
             return word
         }

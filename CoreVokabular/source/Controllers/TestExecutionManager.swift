@@ -33,9 +33,9 @@ public class TestExecutionManager
     
     public init(delegate : TestExecutionDelegate, selectedLesson :Dictionary<String, String> )
     {
-        var parser = WordParser()
+        let parser = WordParser()
         self.selectedLesson = selectedLesson
-        var words = parser.parseWordsFromFileInfo(self.selectedLesson)
+        let words = parser.parseWordsFromFileInfo(self.selectedLesson)
         self.total = words.count
         self.wordGenerator = WordGenerator(words: words, numberOfWordsToGenerate: words.count)
         self.currentWord = self.wordGenerator!.nextWord()
@@ -62,7 +62,7 @@ public class TestExecutionManager
     {
         var correctAnswer : String? = self.currentWord?.synonyms[0]
         correctAnswer = correctAnswer?.lowercaseString.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceCharacterSet())
-        var safeGivenAnswer :String? = givenAnswer.lowercaseString.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceCharacterSet())
+        let safeGivenAnswer :String? = givenAnswer.lowercaseString.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceCharacterSet())
         
         
         if safeGivenAnswer == correctAnswer
@@ -72,7 +72,11 @@ public class TestExecutionManager
                 self.numberOfCorrectAnswers = self.numberOfCorrectAnswers + 1
             }
             self.previousWord = self.currentWord // Store the old one
-            self.count += 1
+            if self.count < self.total
+            {
+                self.count += 1
+            }
+            
             self.currentWord = self.wordGenerator!.nextWord()
             self.delegate.handleCorrectAnswerWithNextWord(self.currentWord)
         }

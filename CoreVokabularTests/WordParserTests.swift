@@ -19,7 +19,6 @@ class WordParserTests: XCTestCase
     override func setUp()
     {
         super.setUp()
-        
         WordParser.deleteContentsOfImportedFiles()
         WordParser.createImportedFilesFolder()
     }
@@ -32,12 +31,12 @@ class WordParserTests: XCTestCase
 
     func testStoreLinesIntoImportedFile() {
         
-        let (success, fileName, error) = WordParser.storeLinesIntoImportedFile(testInput)
+        let (success, fileName) = WordParser.storeLinesIntoImportedFile(testInput)
         let documentsPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as NSString
         let importedFilesPath = documentsPath.stringByAppendingPathComponent("vokabularImportedFiles")
-        let filePath = importedFilesPath.stringByAppendingPathComponent(fileName)
-        let contentData : NSData? = self.fileManager.contentsAtPath(filePath)
-        let contentString = NSString(data: contentData!, encoding: NSUTF8StringEncoding) as String
+        let filePath = NSURL(fileURLWithPath: importedFilesPath).URLByAppendingPathComponent(fileName)
+        let contentData : NSData? = self.fileManager.contentsAtPath(filePath.path!)
+        let contentString = NSString(data: contentData!, encoding: NSUTF8StringEncoding) as! String
 
         XCTAssert(success, "The imported file was not set")
         XCTAssert(contentString == "Krumpir:patatas\nKruh:pan\nvoće:fruta", "The file was not stored correctly")
@@ -46,7 +45,7 @@ class WordParserTests: XCTestCase
     
     func testParseWordsFromFileInfo()
     {
-        var (success, fileName, error) = WordParser.storeLinesIntoImportedFile(testInput)
+        let (_, fileName) = WordParser.storeLinesIntoImportedFile(testInput)
         
         let words = wordParser.parseWordsFromFileInfo(["displayName" : "TEST", "fileName": fileName, "imported" : "true"])
         
@@ -58,30 +57,15 @@ class WordParserTests: XCTestCase
         XCTAssert(words[2].name == "voće", "Krumpir name was not parsed")
         XCTAssert(words[2].synonyms.first == "fruta", "fruta synonym was not parsed")
     }
-
-    
-    func testparseWordsFromFileWithIndexKey()
-    {
-        let words = self.wordParser.parseWordsFromFileWithIndexKey("test")
-        
-        XCTAssert(words.count == 2, "words were not parsed correctly")
-        XCTAssert((words[0].name) == "word1", "word1 name was not parsed")
-        XCTAssert(words[0].synonyms.first == "correct", "word1 synonym was not parsed")
-        XCTAssert(words[1].name == "word2", "word2 name was not parsed")
-        XCTAssert(words[1].synonyms.first == "correct", "word2 synonym was not parsed")
-    }
     
     func testLessonsIndexArrayWithIndexFileName()
     {
-        let (success, fileName, error) = WordParser.storeLinesIntoImportedFile(testInput)
+        let (_, fileName) = WordParser.storeLinesIntoImportedFile(testInput)
         let lessons = WordParser.lessonsIndexArrayWithIndexFileName("test-index")
         
         XCTAssert(lessons.count == 3, "There should be 3 lessons")
         XCTAssert(lessons[0] == ["displayName" : "Lekcija 6: Dođite k meni", "fileName": "lekcija6"], "There should be 3 lessons")
         XCTAssert(lessons[1] == ["displayName" : "Lekcija 8: Kakav stan imate", "fileName": "lekcija8"], "There should be 3 lessons")
         XCTAssert(lessons[2] == ["displayName" : fileName, "fileName": fileName, "imported" : "true"], "There should be 3 lessons")
-        
-        
     }
-
 }

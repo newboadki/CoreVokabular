@@ -74,5 +74,11 @@
 		<key>fileName</key>
 		<string>miscellanea2.txt</string>
 	</dict>
+	<dict>
+		<key>displayName</key>
+		<string>TEST</string>
+		<key>fileName</key>
+		<string>test</string>
+	</dict>
 </array>
 </plist>
