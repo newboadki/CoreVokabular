@@ -403,7 +403,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Borja Arias Drake";
 				TargetAttributes = {
 					00E33AAE19F2C79A009B5653 = {
