@@ -19,7 +19,7 @@ public class WordParser : NSObject
         index = WordParser.lessonsIndexArrayWithIndexFileName("index")
         super.init()
     }
-    
+        
     // MARK: - Public API
     
     public class func lessonsIndexArrayWithIndexFileName(indexFileName : String) -> Array<[String : String]>
@@ -59,7 +59,7 @@ public class WordParser : NSObject
     
     // Consider moving these methods to FileManager or Filesystem class
     
-    public class func storeLinesIntoImportedFile(lines : Array<String>) -> (Bool, String)
+    public class func storeLinesIntoImportedFile(title : String?, lines : Array<String>) -> (Bool, String)
     {
         WordParser.createImportedFilesFolder()
         var fileText = ""
@@ -77,12 +77,20 @@ public class WordParser : NSObject
             }
         }
         
-        let documentsPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as NSString
-        let importedFilesPath = documentsPath.stringByAppendingPathComponent("vokabularImportedFiles")
+        let fileName :  String
         let date = NSDate()
         let calendar = NSCalendar.currentCalendar()
         let components = calendar.components([.Year, .Month, .Day, .Hour, .Minute, .Second], fromDate: date)
-        let fileName = "imported\(components.year)\(components.month)\(components.day)\(components.hour)\(components.minute)\(components.second).txt"
+        let documentsPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as NSString
+        let importedFilesPath = documentsPath.stringByAppendingPathComponent("vokabularImportedFiles")
+
+        if let name = title {
+           fileName = "\(name).txt"
+        } else {
+            fileName = "imported\(components.year)\(components.month)\(components.day)\(components.hour)\(components.minute)\(components.second).txt"
+        }
+        
+
         let filePath = NSURL(fileURLWithPath: importedFilesPath).URLByAppendingPathComponent(fileName)
         
         NSFileManager.defaultManager().createFileAtPath(filePath.path!, contents: fileText.dataUsingEncoding(NSUTF8StringEncoding, allowLossyConversion: false), attributes: nil)
@@ -95,7 +103,6 @@ public class WordParser : NSObject
         let documentsPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as NSString
         let importedFilesPath = documentsPath.stringByAppendingPathComponent("vokabularImportedFiles")
         let fileManager = NSFileManager.defaultManager()
-
         
         var success = true
 

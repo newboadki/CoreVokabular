@@ -31,7 +31,7 @@ class WordParserTests: XCTestCase
 
     func testStoreLinesIntoImportedFile() {
         
-        let (success, fileName) = WordParser.storeLinesIntoImportedFile(testInput)
+        let (success, fileName) = WordParser.storeLinesIntoImportedFile("title.txt", lines: testInput)
         let documentsPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as NSString
         let importedFilesPath = documentsPath.stringByAppendingPathComponent("vokabularImportedFiles")
         let filePath = NSURL(fileURLWithPath: importedFilesPath).URLByAppendingPathComponent(fileName)
@@ -45,7 +45,7 @@ class WordParserTests: XCTestCase
     
     func testParseWordsFromFileInfo()
     {
-        let (_, fileName) = WordParser.storeLinesIntoImportedFile(testInput)
+        let (_, fileName) = WordParser.storeLinesIntoImportedFile("title.txt", lines: testInput)
         
         let words = wordParser.parseWordsFromFileInfo(["displayName" : "TEST", "fileName": fileName, "imported" : "true"])
         
@@ -60,7 +60,7 @@ class WordParserTests: XCTestCase
     
     func testLessonsIndexArrayWithIndexFileName()
     {
-        let (_, fileName) = WordParser.storeLinesIntoImportedFile(testInput)
+        let (_, fileName) = WordParser.storeLinesIntoImportedFile("title.txt", lines: testInput)
         let lessons = WordParser.lessonsIndexArrayWithIndexFileName("test-index")
         
         XCTAssert(lessons.count == 3, "There should be 3 lessons")
