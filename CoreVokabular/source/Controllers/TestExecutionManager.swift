@@ -10,8 +10,8 @@ import Foundation
 
 public protocol TestExecutionDelegate
 {
-    func handleCorrectAnswerWithNextWord(word : Word?)
-    func handleFailedAttemptWithCorrectAnswer(correctAnswer : String)
+    func handleCorrectAnswerWithNextWord(_ word : Word?)
+    func handleFailedAttemptWithCorrectAnswer(_ correctAnswer : String)
     
 }
 
@@ -58,11 +58,11 @@ public class TestExecutionManager
         
     }
     
-    public func processGivenAnswer(givenAnswer : String)
+    public func processGivenAnswer(_ givenAnswer : String)
     {
         var correctAnswer : String? = self.currentWord?.synonyms[0]
-        correctAnswer = correctAnswer?.lowercaseString.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceCharacterSet())
-        let safeGivenAnswer :String? = givenAnswer.lowercaseString.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceCharacterSet())
+        correctAnswer = correctAnswer?.lowercased().trimmingCharacters(in: CharacterSet.whitespaces)
+        let safeGivenAnswer :String? = givenAnswer.lowercased().trimmingCharacters(in: CharacterSet.whitespaces)
         
         
         if safeGivenAnswer == correctAnswer

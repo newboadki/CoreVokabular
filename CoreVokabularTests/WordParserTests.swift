@@ -13,7 +13,7 @@ class WordParserTests: XCTestCase
     
     let wordParser : WordParser = WordParser()
     let testInput = ["Krumpir:patatas", "Kruh:pan", "voće:fruta"]
-    let fileManager = NSFileManager.defaultManager()
+    let fileManager = FileManager.default()
     
     
     override func setUp()
@@ -32,11 +32,11 @@ class WordParserTests: XCTestCase
     func testStoreLinesIntoImportedFile() {
         
         let (success, fileName) = WordParser.storeLinesIntoImportedFile("title.txt", lines: testInput)
-        let documentsPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as NSString
-        let importedFilesPath = documentsPath.stringByAppendingPathComponent("vokabularImportedFiles")
-        let filePath = NSURL(fileURLWithPath: importedFilesPath).URLByAppendingPathComponent(fileName)
-        let contentData : NSData? = self.fileManager.contentsAtPath(filePath.path!)
-        let contentString = NSString(data: contentData!, encoding: NSUTF8StringEncoding) as! String
+        let documentsPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as NSString
+        let importedFilesPath = documentsPath.appendingPathComponent("vokabularImportedFiles")
+        let filePath = try! URL(fileURLWithPath: importedFilesPath).appendingPathComponent(fileName)
+        let contentData : Data? = self.fileManager.contents(atPath: filePath.path!)
+        let contentString = NSString(data: contentData!, encoding: String.Encoding.utf8.rawValue) as! String
 
         XCTAssert(success, "The imported file was not set")
         XCTAssert(contentString == "Krumpir:patatas\nKruh:pan\nvoće:fruta", "The file was not stored correctly")

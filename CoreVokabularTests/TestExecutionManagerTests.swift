@@ -43,6 +43,6 @@ class TestExecutionManagerTests: XCTestCase, TestExecutionDelegate {
     }
     
     // DELEGATE
-    func handleCorrectAnswerWithNextWord(word : Word?) {}
-    func handleFailedAttemptWithCorrectAnswer(correctAnswer : String) {}
+    func handleCorrectAnswerWithNextWord(_ word : Word?) {}
+    func handleFailedAttemptWithCorrectAnswer(_ correctAnswer : String) {}
 }
