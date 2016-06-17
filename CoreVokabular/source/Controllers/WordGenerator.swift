@@ -15,17 +15,61 @@ import Foundation
 */
 public class WordGenerator: NSObject
 {
-    let words : [Word]
-    let numberOfWordsToGenerate : Int
-    var currentIndex : Int = 0
-    var generatedWords : [Word]
+    private let words : [Word]
+    private let numberOfWordsToGenerate : Int
+    private var currentIndex : Int = 0
+    private var generatedWords : [Word]
+    private var reachedEnd : Bool
     
+//    var nextWord : Word?
+//        {
+//        get
+//        {
+//            if(self.currentIndex == self.numberOfWordsToGenerate)
+//            {
+//                self.reachedEnd = true
+//                return nil
+//            }
+//            else
+//            {
+//                let word = self.generatedWords[self.currentIndex]
+//                self.currentIndex = self.currentIndex + 1
+//                return word
+//            }
+//        }
+//    }
+    
+    
+    var previousWord : Word?
+        {
+        get
+        {
+            if self.currentIndex <= 1 {
+                return nil
+            }
+            
+            if self.currentIndex > 1 {
+                if self.reachedEnd {
+                    let word = self.generatedWords[self.numberOfWordsToGenerate - 1]
+                    return word
+                } else {
+                    let word = self.generatedWords[self.currentIndex - 2]
+                    return word
+                }
+            }
+            
+            
+            return nil
+            
+        }
+    }
     
     public init(words: [Word], numberOfWordsToGenerate: Int)
     {
         self.words = words
         self.numberOfWordsToGenerate = numberOfWordsToGenerate
         self.generatedWords = [Word]()
+        self.reachedEnd = false
         
         var generatedIndexes = [Int]()
         while (generatedIndexes.count < numberOfWordsToGenerate)
@@ -39,11 +83,11 @@ public class WordGenerator: NSObject
         }
     }
     
-    
     public func nextWord() -> Word?
     {
         if(self.currentIndex == self.numberOfWordsToGenerate)
         {
+            self.reachedEnd = true
             return nil
         }
         else
@@ -53,5 +97,18 @@ public class WordGenerator: NSObject
             return word
         }
     }
-    
+
+//    public func previousWord() -> Word?
+//    {
+//        if(self.currentIndex == 0)
+//        {
+//            return nil
+//        }
+//        else
+//        {
+//            let word = self.generatedWords[self.currentIndex - 1]
+//            return word
+//        }
+//    }
+
 }

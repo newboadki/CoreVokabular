@@ -39,6 +39,8 @@
 		0044A9671A0561B100D6E7DC /* lekcija13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0044A9651A0561B100D6E7DC /* lekcija13.txt */; };
 		0044A9681A0561B100D6E7DC /* lekcija13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0044A9651A0561B100D6E7DC /* lekcija13.txt */; };
 		0044A9691A0561B100D6E7DC /* lekcija13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0044A9651A0561B100D6E7DC /* lekcija13.txt */; };
+		004D2C301C89CAE0001BFA0D /* WordGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004D2C2F1C89CADF001BFA0D /* WordGeneratorTests.swift */; };
+		004D2C311C89CAE0001BFA0D /* WordGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004D2C2F1C89CADF001BFA0D /* WordGeneratorTests.swift */; };
 		0053592E1AB31927009F763E /* WordParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0053592D1AB31927009F763E /* WordParserTests.swift */; };
 		0053592F1AB31927009F763E /* WordParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0053592D1AB31927009F763E /* WordParserTests.swift */; };
 		005359331AB41609009F763E /* index.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0020EDE319FDA42900229CAC /* index.plist */; };
@@ -114,6 +116,7 @@
 		0043A9A11A879C4D0081B4BD /* lekcija17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija17.txt; sourceTree = "<group>"; };
 		0044A9651A0561B100D6E7DC /* lekcija13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lekcija13.txt; sourceTree = "<group>"; };
 		0044A9731A0582D200D6E7DC /* TestExecutionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestExecutionManager.swift; sourceTree = "<group>"; };
+		004D2C2F1C89CADF001BFA0D /* WordGeneratorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordGeneratorTests.swift; sourceTree = "<group>"; };
 		0053592D1AB31927009F763E /* WordParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordParserTests.swift; sourceTree = "<group>"; };
 		005359341AB41655009F763E /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = test.txt; path = ../CoreVokabular/test.txt; sourceTree = "<group>"; };
 		005359371AB42706009F763E /* test-index.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "test-index.plist"; path = "CoreVokabular/test-index.plist"; sourceTree = SOURCE_ROOT; };
@@ -227,6 +230,7 @@
 			children = (
 				00E33ABC19F2C79A009B5653 /* Supporting Files */,
 				007C6CDE1A12A3B300A6C5C0 /* TestExecutionManagerTests.swift */,
+				004D2C2F1C89CADF001BFA0D /* WordGeneratorTests.swift */,
 				0053592D1AB31927009F763E /* WordParserTests.swift */,
 			);
 			path = CoreVokabularTests;
@@ -545,6 +549,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				001D9C5E19FD36F700AC1663 /* WordParser.swift in Sources */,
+				004D2C301C89CAE0001BFA0D /* WordGeneratorTests.swift in Sources */,
 				00B172031A09717C00C11B49 /* TestExecutionManager.swift in Sources */,
 				0053592E1AB31927009F763E /* WordParserTests.swift in Sources */,
 				001D9C6119FD370200AC1663 /* Word.swift in Sources */,
@@ -569,6 +574,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00B172051A09717E00C11B49 /* TestExecutionManager.swift in Sources */,
+				004D2C311C89CAE0001BFA0D /* WordGeneratorTests.swift in Sources */,
 				005359491ABA1C58009F763E /* WordGenerator.swift in Sources */,
 				0053592F1AB31927009F763E /* WordParserTests.swift in Sources */,
 				0053594A1ABA1C5C009F763E /* WordParser.swift in Sources */,
@@ -607,7 +613,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -654,7 +660,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -682,7 +688,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 5;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CoreVokabular/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -704,7 +710,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 5;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CoreVokabular/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -756,7 +762,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 5;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -782,7 +788,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 5;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = CoreVokabularOSX/Info.plist;

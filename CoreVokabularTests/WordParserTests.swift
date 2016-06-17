@@ -45,8 +45,7 @@ class WordParserTests: XCTestCase
     
     func testParseWordsFromFileInfo()
     {
-        let (_, fileName) = WordParser.storeLinesIntoImportedFile("title.txt", lines: testInput)
-        
+        let (_, fileName) = WordParser.storeLinesIntoImportedFile("title.txt", lines: testInput)        
         let words = wordParser.parseWordsFromFileInfo(["displayName" : "TEST", "fileName": fileName, "imported" : "true"])
         
         XCTAssert(words.count == 3, "words were not parsed correctly")
