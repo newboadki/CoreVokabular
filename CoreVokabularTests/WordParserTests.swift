@@ -7,20 +7,23 @@
 //
 
 import XCTest
+@testable import CoreVokabular
 
 class WordParserTests: XCTestCase
-{
-    
-    let wordParser : WordParser = WordParser()
+{    
+    var wordParser : WordParser!
     let testInput = ["Krumpir:patatas", "Kruh:pan", "voće:fruta"]
-    let fileManager = FileManager.default()
-    
+    let fileManager = FileManager.default
+    let importedFilesFolderName = "vokabularImportedFiles"
     
     override func setUp()
     {
         super.setUp()
-        WordParser.deleteContentsOfImportedFiles()
-        WordParser.createImportedFilesFolder()
+        
+        let bundle = Bundle(for: self.classForCoder)
+        self.wordParser = WordParser(indexFileName: "test-index", bundle: bundle)
+        let _ = FileSystemHelper.deleteContentsOf(directoryName: importedFilesFolderName)
+        let _ = FileSystemHelper.create(directoryName: importedFilesFolderName)
     }
     
     override func tearDown()
@@ -31,12 +34,12 @@ class WordParserTests: XCTestCase
 
     func testStoreLinesIntoImportedFile() {
         
-        let (success, fileName) = WordParser.storeLinesIntoImportedFile("title.txt", lines: testInput)
-        let documentsPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as NSString
-        let importedFilesPath = documentsPath.appendingPathComponent("vokabularImportedFiles")
-        let filePath = try! URL(fileURLWithPath: importedFilesPath).appendingPathComponent(fileName)
-        let contentData : Data? = self.fileManager.contents(atPath: filePath.path!)
-        let contentString = NSString(data: contentData!, encoding: String.Encoding.utf8.rawValue) as! String
+        let (success, fileName) = FileSystemHelper.storeLinesIntoImportedFile("title.txt", lines: testInput, directoryName: importedFilesFolderName)
+        let documentsPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
+        let importedFilesPath = documentsPath + "/vokabularImportedFiles"
+        let filePath = URL(fileURLWithPath: importedFilesPath).appendingPathComponent(fileName)
+        let contentData : Data? = self.fileManager.contents(atPath: filePath.path)
+        let contentString = NSString(data: contentData!, encoding: String.Encoding.utf8.rawValue)
 
         XCTAssert(success, "The imported file was not set")
         XCTAssert(contentString == "Krumpir:patatas\nKruh:pan\nvoće:fruta", "The file was not stored correctly")
@@ -45,7 +48,7 @@ class WordParserTests: XCTestCase
     
     func testParseWordsFromFileInfo()
     {
-        let (_, fileName) = WordParser.storeLinesIntoImportedFile("title.txt", lines: testInput)        
+        let (_, fileName) = FileSystemHelper.storeLinesIntoImportedFile("title.txt", lines: testInput, directoryName: importedFilesFolderName)
         let words = wordParser.parseWordsFromFileInfo(["displayName" : "TEST", "fileName": fileName, "imported" : "true"])
         
         XCTAssert(words.count == 3, "words were not parsed correctly")
@@ -59,8 +62,9 @@ class WordParserTests: XCTestCase
     
     func testLessonsIndexArrayWithIndexFileName()
     {
-        let (_, fileName) = WordParser.storeLinesIntoImportedFile("title.txt", lines: testInput)
-        let lessons = WordParser.lessonsIndexArrayWithIndexFileName("test-index")
+        let (_, fileName) = FileSystemHelper.storeLinesIntoImportedFile("title", lines: testInput, directoryName: importedFilesFolderName)
+        let testBundle = Bundle(for: self.classForCoder)
+        let lessons = WordParser.lessonsIndexArray(withIndexFileName: "test-index", inBundle: testBundle)
         
         XCTAssert(lessons.count == 3, "There should be 3 lessons")
         XCTAssert(lessons[0] == ["displayName" : "Lekcija 6: Dođite k meni", "fileName": "lekcija6"], "There should be 3 lessons")

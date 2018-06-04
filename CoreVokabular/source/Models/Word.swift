@@ -15,7 +15,7 @@ public class Word: NSObject
     
     public init(name: String, synonyms: [String])
     {
-        self.name = name
+        self.name = name as NSString?
         self.synonyms = synonyms
     }
 }

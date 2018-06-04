@@ -7,6 +7,7 @@
 //
 
 import XCTest
+@testable import CoreVokabular
 
 class TestExecutionManagerTests: XCTestCase, TestExecutionDelegate {
 
@@ -15,7 +16,8 @@ class TestExecutionManagerTests: XCTestCase, TestExecutionDelegate {
     override func setUp()
     {
         super.setUp()
-        self.executionManager = TestExecutionManager(delegate: self, selectedLesson: ["displayName" : "TEST", "fileName": "test", "imported" : "false"])
+        let testBundle = Bundle(for: type(of: self))
+        self.executionManager = TestExecutionManager(delegate: self, selectedLesson: ["displayName" : "TEST", "fileName": "test", "imported" : "false"], indexFileName: "test-index", bundle: testBundle)
     
     }
     

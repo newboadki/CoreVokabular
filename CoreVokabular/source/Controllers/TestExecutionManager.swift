@@ -8,17 +8,10 @@
 
 import Foundation
 
-public protocol TestExecutionDelegate
-{
-    func handleCorrectAnswerWithNextWord(_ word : Word?)
-    func handleFailedAttemptWithCorrectAnswer(_ correctAnswer : String)
-    
-}
-
 public class TestExecutionManager
 {
     // Components
-    var wordGenerator : WordGenerator?
+    private var wordGenerator : WordGenerator?
     
     // State
     public var currentWord : Word?
@@ -27,13 +20,16 @@ public class TestExecutionManager
     public var total : Int = 0
     public var selectedLesson : Dictionary<String, String>
     
-    var previousWord : Word?
-    var delegate : TestExecutionDelegate
+    public var previousWord : Word?
+    public weak var delegate : TestExecutionDelegate?
+
     
     
-    public init(delegate : TestExecutionDelegate, selectedLesson :Dictionary<String, String> )
+    // MARK: - Initializers
+    
+    internal init(delegate : TestExecutionDelegate, selectedLesson :Dictionary<String, String>, indexFileName: String, bundle: Bundle )
     {
-        let parser = WordParser()
+        let parser = WordParser(indexFileName: indexFileName, bundle: bundle)
         self.selectedLesson = selectedLesson
         let words = parser.parseWordsFromFileInfo(self.selectedLesson)
         self.total = words.count
@@ -41,6 +37,16 @@ public class TestExecutionManager
         self.currentWord = self.wordGenerator!.nextWord()
         self.delegate = delegate
     }
+    
+    convenience public init(delegate : TestExecutionDelegate, selectedLesson :Dictionary<String, String>)
+    {
+        let frameworkBundle = Bundle(for: WordParser.self)
+        self.init(delegate : delegate, selectedLesson:selectedLesson, indexFileName: "index" , bundle: frameworkBundle)
+    }
+
+    
+    
+    // MARK: - API
     
     public func initialWord() -> Word?
     {
@@ -78,14 +84,12 @@ public class TestExecutionManager
             }
             
             self.currentWord = self.wordGenerator!.nextWord()
-            self.delegate.handleCorrectAnswerWithNextWord(self.currentWord)
+            self.delegate?.handleCorrectAnswerWithNextWord(self.currentWord)
         }
         else
         {
             self.previousWord = self.currentWord // Store the old one
-            self.delegate.handleFailedAttemptWithCorrectAnswer(correctAnswer!)
+            self.delegate?.handleFailedAttemptWithCorrectAnswer(correctAnswer!)
         }
     }
-
-    
 }

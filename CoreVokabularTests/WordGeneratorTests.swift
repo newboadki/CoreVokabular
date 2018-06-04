@@ -7,50 +7,61 @@
 //
 
 import XCTest
+@testable import CoreVokabular
+
 
 class WordGeneratorTests: XCTestCase {
 
-    var generator : WordGenerator?
+    var generator : WordGenerator!
+    var words: [Word]!
     
     override func setUp() {
         super.setUp()
-        
-        let wordParser : WordParser = WordParser()
-        let testInput = ["Krumpir:patatas", "Kruh:pan", "voće:fruta"]
-        let (_, fileName) = WordParser.storeLinesIntoImportedFile("title.txt", lines: testInput)
-        let words = wordParser.parseWordsFromFileInfo(["displayName" : "TEST", "fileName": fileName, "imported" : "true"])
-
+        let testBundle = Bundle(for: type(of: self))
+        let wordParser : WordParser = WordParser(indexFileName: "test-index", bundle: testBundle)
+        words = wordParser.words(inLessonFile: "lekcija6", inBundle: testBundle)
         self.generator = WordGenerator(words: words, numberOfWordsToGenerate: words.count)
-        
     }
     
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-
-    func testPreviousWord()
+    func testPreviousWordIsNilInitially()
     {
-        XCTAssertNil(self.generator?.previousWord, "The firt time, previou ord mut be nil")
-
-        XCTAssertEqual(self.generator?.nextWord()?.name, "Krumpir", "The firt time, previou ord mut be nil")
-        XCTAssertNil(self.generator?.previousWord, "The firt time, previou ord mut be nil")
-        
-        XCTAssertEqual(self.generator?.nextWord()?.name, "Kruh", "The firt time, previou ord mut be nil")
-        XCTAssertEqual(self.generator?.previousWord?.name, "Krumpir", "The firt time, previou ord mut be nil")
-
-        XCTAssertEqual(self.generator?.nextWord()?.name, "voće", "The firt time, previou ord mut be nil")
-        XCTAssertEqual(self.generator?.previousWord?.name, "Kruh", "The firt time, previou ord mut be nil")
-        
-        XCTAssertNil(self.generator?.nextWord, "The firt time, previou ord mut be nil")
-        XCTAssertEqual(self.generator?.previousWord?.name, "voće", "The firt time, previou ord mut be nil")
+        XCTAssertNil(self.generator?.previousWord, "The firt time, previous word must be nil")
+    }
+    
+    func testWordCountIsCorrectWhenWordsProvided()
+    {
+        XCTAssertTrue(self.generatedWordsCount() == words.count, "The generator didn't go through all the words")
     }
 
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func testWordCountIsCorrectWhenNoWordsProvided()
+    {
+        self.generator = WordGenerator(words: [Word](), numberOfWordsToGenerate: words.count)
+        XCTAssertTrue(self.generatedWordsCount() == 0, "If no words provided there should not be any generated words")
+    }
+
+    func testAllWordsAreReturned() {
+        while let w = self.generator.nextWord() {
+            XCTAssertTrue(words.contains(w), "Not all words are returned by the generator")
         }
     }
+    
+    func testPreviousWord() {
+        var previous: Word? = nil
+        while let w = self.generator.nextWord() {
+            XCTAssertEqual(self.generator.previousWord, previous, "Previous word logic is not working")
+            previous = w
+        }
+    }
+}
 
+private extension WordGeneratorTests {
+    
+    func generatedWordsCount() -> Int {
+        var count = 0
+        while (self.generator.nextWord() != nil) {
+            count += 1
+        }
+        
+        return count
+    }
 }

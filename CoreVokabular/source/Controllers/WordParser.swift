@@ -8,29 +8,33 @@
 
 import Foundation
 
-public class WordParser : NSObject
+public class WordParser
 {
-    let wordListFileType = "txt"
-    let index : NSArray
+    public let wordListFileType = "txt"
+    public let lessonsIndex : Array<Dictionary<String, String>>
+    
+    private static let importedFilesFolderName = "importedVokabularFiles"
+    private static let kIndexFileName = "index"
+    
     
     // MARK: - Initializers
     
-    public override init() {
-        index = WordParser.lessonsIndexArrayWithIndexFileName("index")
-        super.init()
+    convenience public init() {
+        let frameworkBundle = Bundle(for: WordParser.self)
+        self.init(indexFileName: WordParser.kIndexFileName, bundle: frameworkBundle)
     }
-        
+
+    init(indexFileName: String, bundle: Bundle) {
+        self.lessonsIndex = WordParser.lessonsIndexArray(withIndexFileName: indexFileName, inBundle: bundle)
+    }
+
+    
+    
     // MARK: - Public API
     
-    public class func lessonsIndexArrayWithIndexFileName(_ indexFileName : String) -> Array<[String : String]>
-    {
-        let bundle = Bundle(for: self.classForCoder())
-        let indexFilePath : NSString? = bundle.pathForResource(indexFileName, ofType: "plist")
-        assert(indexFilePath != nil, "Couldn't load the index file")
-        let defaultLessons = NSArray(contentsOfFile: indexFilePath as! String) as! Array<[String : String]>
-        let importedLessons = WordParser.importedLessons()
-        
-        return (defaultLessons + importedLessons)
+    public func words(inLessonFile fileName: String, inBundle bundle: Bundle) -> [Word] {
+        let lessonFilePath = bundle.path(forResource: fileName, ofType: wordListFileType)
+        return self.arrayOfWordsForFilePath(lessonFilePath)
     }
 
     public func parseWordsFromFileInfo(_ fileInfo: Dictionary<String,String>) -> Array<Word>
@@ -42,110 +46,40 @@ public class WordParser : NSObject
         if imported == "true"
         {
             let documentsPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String
-            let importedFilesPath = try! URL(fileURLWithPath: documentsPath).appendingPathComponent("vokabularImportedFiles")
-            let importedFilePath = try! URL(fileURLWithPath: importedFilesPath.path!).appendingPathComponent(name!)
-            filePath = importedFilePath.path!
+            let importedFilesPath = URL(fileURLWithPath: documentsPath).appendingPathComponent(WordParser.importedFilesFolderName)
+            let importedFilePath = URL(fileURLWithPath: importedFilesPath.path).appendingPathComponent(name!)
+            filePath = importedFilePath.path
         }
         else
         {
-            let bundle = Bundle(for: self.dynamicType)
-            let path : String? = bundle.pathForResource(name, ofType: wordListFileType)
+            let bundle = Bundle(for: type(of: self))
+            let path : String? = bundle.path(forResource: name, ofType: wordListFileType)
             filePath = path!
         }
         
         return self.arrayOfWordsForFilePath(filePath)
     }
-    
-    
-    // Consider moving these methods to FileManager or Filesystem class
-    
-    public class func storeLinesIntoImportedFile(_ title : String?, lines : Array<String>) -> (Bool, String)
+}
+
+// MARK: - Internal
+internal extension WordParser {
+    class func lessonsIndexArray(withIndexFileName indexFileName : String, inBundle bundle: Bundle) -> Array<[String : String]>
     {
-        WordParser.createImportedFilesFolder()
-        var fileText = ""
-        let lastString = lines.last
+        let indexFilePath = bundle.path(forResource: indexFileName, ofType: "plist")
+        assert(indexFilePath != nil, "Couldn't load the index file")
+        let defaultLessons = NSArray(contentsOfFile: indexFilePath!) as! Array<[String : String]>
+        let importedLessons = WordParser.importedLessons()
         
-        for item in lines
-        {
-            if item == lastString
-            {
-                fileText = fileText + item
-            }
-            else
-            {
-                fileText = fileText.appendingFormat("\(item)\n")
-            }
-        }
-        
-        let fileName :  String
-        let date = Date()
-        let calendar = Calendar.current()
-        let components = calendar.components([.year, .month, .day, .hour, .minute, .second], from: date)
-        let documentsPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as NSString
-        let importedFilesPath = documentsPath.appendingPathComponent("vokabularImportedFiles")
-
-        if let name = title {
-           fileName = "\(name).txt"
-        } else {
-            fileName = "imported\(components.year)\(components.month)\(components.day)\(components.hour)\(components.minute)\(components.second).txt"
-        }
-        
-
-        let filePath = try! URL(fileURLWithPath: importedFilesPath).appendingPathComponent(fileName)
-        
-        FileManager.default().createFile(atPath: filePath.path!, contents: fileText.data(using: String.Encoding.utf8, allowLossyConversion: false), attributes: nil)
-        let success = FileManager.default().createFile(atPath: filePath.path!, contents: fileText.data(using: String.Encoding.utf8, allowLossyConversion: false), attributes: nil)
-        return (success, fileName)
+        return (defaultLessons + importedLessons)
     }
-    
-    public class func deleteContentsOfImportedFiles() -> Bool
-    {
-        let documentsPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as NSString
-        let importedFilesPath = documentsPath.appendingPathComponent("vokabularImportedFiles")
-        let fileManager = FileManager.default()
-        
-        var success = true
+}
 
-        do
-        {
-            try fileManager.removeItem(atPath: importedFilesPath)
-        }
-        catch {
-            success = false
-        }
-        
-        return success
-    }
-    
-    
-    public class func createImportedFilesFolder() -> Bool
-    {
-        let documentsPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as NSString
-        let importedFilesPath = documentsPath.appendingPathComponent("vokabularImportedFiles")
-        let fileManager = FileManager.default()
-        var isDirectory : ObjCBool = true
-        let directoryExists = fileManager.fileExists(atPath: importedFilesPath, isDirectory: &isDirectory)
-        
-        if !directoryExists
-        {
-            do
-            {
-                try fileManager.createDirectory(atPath: importedFilesPath, withIntermediateDirectories: false, attributes: nil)
-            }
-            catch
-            {
-                
-            }
 
-            
-        }
-        
-        return fileManager.fileExists(atPath: importedFilesPath, isDirectory: &isDirectory)
-    }
+// MARK: - Private
+private extension WordParser {
+    
 
-    
-    // MARK: - Private
-    
+
     func arrayOfWordsForFilePath(_ inputPath : String?) -> Array<Word>
     {
         var words = [Word]() // Creates an empty Array of Word(s)
@@ -165,25 +99,29 @@ public class WordParser : NSObject
             for line in lines!
             {
                 var lineComponents = line.components(separatedBy: ":")
-                let name : String = lineComponents[0]
-                let synonymsString : String = lineComponents[1]
-                let synonyms = synonymsString.components(separatedBy: ",")
-                let word = Word(name: name, synonyms: synonyms)
-                words.append(word)
+                if lineComponents.count == 2 {
+                    let name : String = lineComponents[0]
+                    let synonymsString : String = lineComponents[1]
+                    let synonyms = synonymsString.components(separatedBy: ",")
+                    let word = Word(name: name, synonyms: synonyms)
+                    words.append(word)
+                }
             }
         }
         
         return words
     }
     
+
+    
     class func importedLessons() -> Array<[String : String]>
     {
-        let documentsPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String
-        let importedFilesPath = try! URL(fileURLWithPath: documentsPath).appendingPathComponent("vokabularImportedFiles")
+        let documentsDirectoryURL = FileSystemHelper.documentsDirectoryURL()
+        let importedFilesPath = documentsDirectoryURL.appendingPathComponent(importedFilesFolderName).path
         var lessons = [Dictionary<String,String>]()
-        let fileManager = FileManager.default()
-        let enumerator : FileManager.DirectoryEnumerator? = fileManager.enumerator(atPath: importedFilesPath.path!)
-
+        let fileManager = FileManager.default
+        let enumerator : FileManager.DirectoryEnumerator? = fileManager.enumerator(atPath: importedFilesPath)
+        
         while let importedFile = enumerator?.nextObject() as? String
         {
             let dict : Dictionary<String,String> = ["displayName" : importedFile,

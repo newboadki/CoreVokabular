@@ -14,16 +14,30 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "00E33AAE19F2C79A009B5653"
-               BuildableName = "CoreVokabular.framework"
-               BlueprintName = "CoreVokabular"
+               BlueprintIdentifier = "00ECE7A31A026724001F9D91"
+               BuildableName = "CoreVokabularOSX.framework"
+               BlueprintName = "CoreVokabularOSX"
+               ReferencedContainer = "container:CoreVokabular.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "00B6048B1A018E9200243649"
+               BuildableName = "CoreVokabular_OSXTests.xctest"
+               BlueprintName = "CoreVokabular_OSXTests"
                ReferencedContainer = "container:CoreVokabular.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Testing"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
@@ -32,9 +46,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "003168181DB1799E00E08207"
-               BuildableName = "CoreVokabularTests.xctest"
-               BlueprintName = "CoreVokabularTests"
+               BlueprintIdentifier = "00B6048B1A018E9200243649"
+               BuildableName = "CoreVokabular_OSXTests.xctest"
+               BlueprintName = "CoreVokabular_OSXTests"
                ReferencedContainer = "container:CoreVokabular.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,9 +56,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "00E33AAE19F2C79A009B5653"
-            BuildableName = "CoreVokabular.framework"
-            BlueprintName = "CoreVokabular"
+            BlueprintIdentifier = "00ECE7A31A026724001F9D91"
+            BuildableName = "CoreVokabularOSX.framework"
+            BlueprintName = "CoreVokabularOSX"
             ReferencedContainer = "container:CoreVokabular.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,9 +78,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "00E33AAE19F2C79A009B5653"
-            BuildableName = "CoreVokabular.framework"
-            BlueprintName = "CoreVokabular"
+            BlueprintIdentifier = "00ECE7A31A026724001F9D91"
+            BuildableName = "CoreVokabularOSX.framework"
+            BlueprintName = "CoreVokabularOSX"
             ReferencedContainer = "container:CoreVokabular.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,9 +96,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "00E33AAE19F2C79A009B5653"
-            BuildableName = "CoreVokabular.framework"
-            BlueprintName = "CoreVokabular"
+            BlueprintIdentifier = "00ECE7A31A026724001F9D91"
+            BuildableName = "CoreVokabularOSX.framework"
+            BlueprintName = "CoreVokabularOSX"
             ReferencedContainer = "container:CoreVokabular.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

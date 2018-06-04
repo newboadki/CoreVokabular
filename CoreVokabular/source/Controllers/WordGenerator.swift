@@ -21,27 +21,58 @@ public class WordGenerator: NSObject
     private var generatedWords : [Word]
     private var reachedEnd : Bool
     
-//    var nextWord : Word?
-//        {
-//        get
-//        {
-//            if(self.currentIndex == self.numberOfWordsToGenerate)
-//            {
-//                self.reachedEnd = true
-//                return nil
-//            }
-//            else
-//            {
-//                let word = self.generatedWords[self.currentIndex]
-//                self.currentIndex = self.currentIndex + 1
-//                return word
-//            }
-//        }
-//    }
+
     
+    // MARK: - Initializers
     
-    var previousWord : Word?
+    public init(words: [Word], numberOfWordsToGenerate: Int)
+    {
+        self.words = words
+        self.numberOfWordsToGenerate = numberOfWordsToGenerate
+        self.generatedWords = [Word]()
+        self.reachedEnd = false
+        
+        guard (numberOfWordsToGenerate <= words.count) else {
+            return
+        }
+        
+        var generatedIndexes = [Int]()
+        while (generatedIndexes.count < numberOfWordsToGenerate)
         {
+            let randomIndex = Int(arc4random_uniform(UInt32(self.words.count)))
+            if (!generatedIndexes.contains(randomIndex))
+            {
+                self.generatedWords.append(self.words[randomIndex])
+                generatedIndexes.append(randomIndex)
+            }
+        }
+    }
+    
+    
+    
+    // MARK: - Word generation
+    
+    public func nextWord() -> Word?
+    {
+        if(self.currentIndex == self.numberOfWordsToGenerate)
+        {
+            self.reachedEnd = true
+            return nil
+        }
+        else
+        {
+            guard (self.currentIndex < self.generatedWords.count) else {
+                return nil
+            }
+            
+            let word = self.generatedWords[self.currentIndex]
+            self.currentIndex = self.currentIndex + 1
+            return word
+        }
+    }
+    
+    public var previousWord : Word?
+    {
         get
         {
             if self.currentIndex <= 1 {
@@ -58,57 +89,7 @@ public class WordGenerator: NSObject
                 }
             }
             
-            
-            return nil
-            
+            return nil            
         }
     }
-    
-    public init(words: [Word], numberOfWordsToGenerate: Int)
-    {
-        self.words = words
-        self.numberOfWordsToGenerate = numberOfWordsToGenerate
-        self.generatedWords = [Word]()
-        self.reachedEnd = false
-        
-        var generatedIndexes = [Int]()
-        while (generatedIndexes.count < numberOfWordsToGenerate)
-        {
-            let randomIndex = Int(arc4random_uniform(UInt32(self.words.count)))
-            if (!generatedIndexes.contains(randomIndex))
-            {
-                self.generatedWords.append(self.words[randomIndex])
-                generatedIndexes.append(randomIndex)
-            }
-        }
-    }
-    
-    public func nextWord() -> Word?
-    {
-        if(self.currentIndex == self.numberOfWordsToGenerate)
-        {
-            self.reachedEnd = true
-            return nil
-        }
-        else
-        {
-            let word = self.generatedWords[self.currentIndex]
-            self.currentIndex = self.currentIndex + 1
-            return word
-        }
-    }
-
-//    public func previousWord() -> Word?
-//    {
-//        if(self.currentIndex == 0)
-//        {
-//            return nil
-//        }
-//        else
-//        {
-//            let word = self.generatedWords[self.currentIndex - 1]
-//            return word
-//        }
-//    }
-
 }
