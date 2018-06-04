@@ -14,7 +14,7 @@ class WordParserTests: XCTestCase
     var wordParser : WordParser!
     let testInput = ["Krumpir:patatas", "Kruh:pan", "voće:fruta"]
     let fileManager = FileManager.default
-    let importedFilesFolderName = "vokabularImportedFiles"
+    let importedFilesFolderName = "importedVokabularFiles"
     
     override func setUp()
     {
@@ -36,7 +36,7 @@ class WordParserTests: XCTestCase
         
         let (success, fileName) = FileSystemHelper.storeLinesIntoImportedFile("title.txt", lines: testInput, directoryName: importedFilesFolderName)
         let documentsPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
-        let importedFilesPath = documentsPath + "/vokabularImportedFiles"
+        let importedFilesPath = documentsPath + "/importedVokabularFiles"
         let filePath = URL(fileURLWithPath: importedFilesPath).appendingPathComponent(fileName)
         let contentData : Data? = self.fileManager.contents(atPath: filePath.path)
         let contentString = NSString(data: contentData!, encoding: String.Encoding.utf8.rawValue)
